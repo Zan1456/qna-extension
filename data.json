@@ -1,0 +1,391 @@
+[
+    {
+        "name": "Melyik összetevő védi meg a számítógépet az illetéktelen kommunikációktól?",
+        "value": "tűzfal"
+    },
+    {
+        "name": "Melyik parancs blokkolja a RouterA-nál a bejelentkezési kísérleteket 30 másodpercre, ha 10 másodpercen belül 2 sikertelen kísérlet történik?",
+        "value": "RouterA(config)# login block-for 30 attempts 2 within 10"
+    },
+    {
+        "name": "Mi a hálózatbiztonsági naplózás funkció célja?",
+        "value": "a felhasználói tevékenységek nyomon követése"
+    },
+    {
+        "name": "Milyen típusú támadás használhat olyan eszközöket, mint az nslookup és az fping?",
+        "value": "felderítő támadás"
+    },
+    {
+        "name": "Párosítsd össze minden gyengeséget egy példával. (Nem minden lehetőség kerül felhasználásra.)",
+        "image": "https://1.bp.blogspot.com/-LBQDtFRXpuI/XkNFiF0RB-I/AAAAAAAADNw/6vVo7J7jmiY-KiChO7_oC-g8ap8T_glYwCLcBGAsYHQ/s1600/CCNA%2B1%2Bv7%2BModules%2B16%2B%25E2%2580%2593%2B17%2Bp5.png"
+    },
+    {
+        "name": "Párosítsd össze az információbiztonsági fenyegetés típusát a jelenethez. (Nem minden lehetőség kerül felhasználásra.)",
+        "image": "https://1.bp.blogspot.com/-YlhAxiieE7k/XkNFinUhzcI/AAAAAAAADN0/fVHtG6NIYh4q6I9m7EkMlXbo6pnZ1M3OwCLcBGAsYHQ/s1600/CCNA%2B1%2Bv7%2BModules%2B16%2B%25E2%2580%2593%2B17%2Bp6.png"
+    },
+    {
+        "name": "Melyik példa a rosszindulatú kódra sorolható a trójai faló kategóriába?",
+        "value": "rosszindulatú szoftver, amely úgy készült, hogy videójátéknak tűnjön"
+    },
+    {
+        "name": "Mi a különbség a vírus és a féreg között?",
+        "value": "A férgek önállóan másolják magukat, de a vírusok nem."
+    },
+    {
+        "name": "Melyik támadás érinti az adatokat két végpont között?",
+        "value": "man-in-the-middle attack"
+    },
+    {
+        "name": "Milyen típusú támadás próbál információt gyűjteni egy hálózatról a sérülékenységek azonosításához?",
+        "value": "Felderítés"
+    },
+    {
+        "name": "A leírást párosítsd össze a tűzfalszűrés típusához. (Nem minden lehetőség kerül felhasználásra.)",
+        "image": "https://1.bp.blogspot.com/-vLVdvmD5khg/XkNFguJU2PI/AAAAAAAADNg/4fPB4Nb3BCws_emO1CWkw-7gJslGLUyZACLcBGAsYHQ/s1600/CCNA%2B1%2Bv7%2BModules%2B16%2B%25E2%2580%2593%2B17%2Bp11.png"
+    },
+    {
+        "name": "Mi a hálózatbiztonsági hitelesítési funkció célja?",
+        "value": "annak megkövetelése, hogy a felhasználók igazolják személyazonosságukat"
+    },
+    {
+        "name": "Melyik tűzfal funkciót használják annak biztosítására, hogy a hálózatba érkező csomagok valódi válaszok legyenek a belső gazdagépek által kezdeményezett kérésekre?",
+        "value": "állapotalapú csomagszűrés"
+    },
+    {
+        "name": "Melyik parancs alkalmazható egy routeren, hogy csökkentse a brute-force jelszótámadásokat?",
+        "value": "login block-for 60 attempts 5 within 60"
+    },
+    {
+        "name": "Azonosítsd a switch SSH-konfigurálásához szükséges lépéseket. A válaszok sorrendje nem számít. (Nem minden lehetőség kerül felhasználásra.)",
+        "image": "https://1.bp.blogspot.com/-sY80_B3gaos/XkNFglgPlQI/AAAAAAAADNc/y7QeWQVRUSgUfIjccjuMDHclLQRP0opmQCLcBGAsYHQ/s1600/CCNA%2B1%2Bv7%2BModules%2B16%2B%25E2%2580%2593%2B17%2Bp15.png"
+    },
+    {
+        "name": "Mi teszi az SSH-t biztonságosabbá, mint a Telnet-et az eszközkezelési kapcsolathoz?",
+        "value": "bejelentkezési adatok és adat titkosítása"
+    },
+    {
+        "name": "Mi az SSH előnye a Telnet-tel szemben?",
+        "value": "Az SSH biztonságos kommunikációt biztosít a gazdagépekhez való hozzáféréshez."
+    },
+    {
+        "name": "Mi az IPS szerepe?",
+        "value": "támadások valós idejű észlelése és blokkolása"
+    },
+    {
+        "name": "Egy felhasználó egy kisvállalat hálózatát tervezi újra, és ésszerű áron szeretne biztonságot biztosítani. A felhasználó egy új, alkalmazás-tudatos tűzfalat telepít behatolásérzékelési képességekkel az ISP-kapcsolaton. A felhasználó egy második tűzfalat is telepít, hogy elválassza a vállalati hálózatot a nyilvános hálózattól. A felhasználó emellett egy IPS-t is telepít a vállalat belső hálózatára. Milyen megközelítést alkalmaz a felhasználó?",
+        "value": "rétegezett"
+    },
+    {
+        "name": "Mi a redundancia pontos leírása?",
+        "value": "olyan hálózat tervezése, amely több útvonalat használ a switchek között annak biztosítása érdekében, hogy ne legyen egyetlen hibapont sem."
+    },
+    {
+        "name": "Egy hálózati rendszergazda egy kisvállalat hálózatát fejleszti, hogy valós idejű alkalmazások forgalmának magas prioritást biztosítson. Milyen két hálózati szolgáltatást próbál figyelembe venni? (Válasszon kettőt.)",
+        "value": "hand, videó"
+    },
+    {
+        "name": "Mi a célja annak, hogy egy kisvállalat protokollelemző eszközt használjon a hálózati forgalom rögzítésére azon szegmenseken, ahol hálózatfejlesztést tervez?",
+        "value": "a hálózati forgalmi igények dokumentálása és elemzése minden hálózati szegmensen"
+    },
+    {
+        "name": "Egy rendszergazda teszteli a 10.1.1.1.1 IP-címmel rendelkező távoli eszközhöz való kapcsolódást. Mit jelez a parancs kimenete?",
+        "value": "Az útvonal mentén egy útválasztónak nem volt útvonala a célállomáshoz.",
+        "image": "https://1.bp.blogspot.com/-2ayuTbE5frw/XkNFgHDznrI/AAAAAAAADNY/aIGlXKlYxeg8_S3PXhzhTnlAY8W2JwGeACLcBGAsYHQ/s1600/CCNA%2B1%2Bv7%2BModules%2B16%2B%25E2%2580%2593%2B17%2Bp23.png"
+    },
+    {
+        "name": "Milyen módszert használnak egy ping üzenet küldésére a ping forráscímének megadásával?",
+        "value": "A ping parancsot a cél IP-cím megadása nélkül adjuk ki."
+    },
+    {
+        "name": "Egy hálózati mérnök egy nemrég végzett hálózatfelmérés jelentéseit elemzi. Melyik helyzet utalhat késleltetési problémára?",
+        "value": "a gépek közötti ping válaszidők növekedése"
+    },
+    {
+        "name": "Melyik állítás igaz a Cisco IOS ping indikátoraira?​",
+        "value": "Az „U” azt jelezheti, hogy az útvonalon lévő router nem tartalmazott útvonalat a célcímhez, ezért a ping sikertelen volt.​"
+    },
+    {
+        "name": "Egy felhasználó a hálózati kapcsolat hiányára panaszkodik. A technikus átveszi a felhasználó gépének irányítását, és más számítógépeket próbál pingelni a hálózaton, de ezek a pingek sikertelenek. A technikus pingeli az alapértelmezett átjárót is, és az is sikertelen. Mi állapítható meg biztosan ezekből az eredményekből?",
+        "value": "Semmi nem állapítható meg biztosan ebben a pontban."
+    },
+    {
+        "name": "Egy hálózati technikus a C:\\> tracert -6 www.cisco.com parancsot adja ki egy Windows PC-n. Mi a -6 parancs opció célja?",
+        "value": "Az IPv6 használatának kényszerítése a nyomkövetés során."
+    },
+    {
+        "name": "Miért használná egy hálózati rendszergazda a tracert segédprogramot?",
+        "value": "Annak azonosítására, hogy hol veszett el vagy késett a csomag a hálózaton."
+    },
+    {
+        "name": "Egy ping sikertelen volt, amikor az R1 routerről közvetlenül az R2 routerre küldték. Ezután a rendszergazda kiadja a show cdp neighbors parancsot. Miért adná ki ezt a parancsot, ha a ping sikertelen?",
+        "value": "A rendszergazda ellenőrizni akarja a 2. réteg kapcsolatot."
+    },
+    {
+        "name": "Egy hálózati mérnök kapcsolatproblémákat old meg összekapcsolt Cisco routerek és switchek között. Melyik parancsot használhatja az IP-címek, a hostnevek és az IOS-verziók megtekintésére a szomszédos eszközökön?",
+        "value": "show cdp neighbors detail"
+    },
+    {
+        "name": "Milyen információt ellenőrizhet egy Cisco routeren a show version parancs segítségével?",
+        "value": "a konfigurációs regiszter értékét"
+    },
+    {
+        "name": "Melyik parancsot kell kiadni egy Cisco routeren vagy switch-en, hogy naplóüzenetek jelenjenek meg a távoli kapcsolatokon keresztül, például Telnet vagy SSH használatakor?",
+        "value": "terminal monitor"
+    },
+    {
+        "name": "Melyik parancsot kell kiadni egy Cisco routeren, hogy a hibakeresési üzenetek megjelenjenek a vty vonalakon?",
+        "value": "terminal monitor"
+    },
+    {
+        "name": "Egy hálózati rendszergazda egy strukturált hibaelhárítási megközelítést követ, és azonosította a hálózati problémát egy felhasználóval folytatott beszélgetés után. Mi a következő lépés, amit a rendszergazdának meg kell tennie?",
+        "value": "Az okok valószínű elméletének felállítása."
+    },
+    {
+        "name": "A felhasználók panaszkodnak, hogy nem tudnak bizonyos weboldalakat böngészni az interneten. A rendszergazda sikeresen pingeli a webszervert az IP-címén keresztül, de nem éri el a weboldalt domain név használatával. Melyik hibaelhárító eszköz lenne a leghasznosabb a probléma okának meghatározásában?",
+        "value": "nslookup"
+    },
+    {
+        "name": "Egy alkalmazott panaszkodik, hogy egy Windows PC nem tud csatlakozni az internethez. A hálózati technikus az ipconfig parancsot adja ki a PC-n, és azt látja, hogy az IP-cím 169.254.10.3. Melyik két következtetés vonható le? (Válassz kettőt.)",
+        "value": "A PC nem tud kapcsolatot létesíteni egy DHCP szerverrel. A PC automatikus IP-cím beállításra van konfigurálva."
+    },
+    {
+        "name": "A H3 gazdagép problémába ütközik a H1 gazdagéppel való kommunikáció során. A hálózati rendszergazda egy problémát gyanít a H3 munkaállomásnál, és bizonyítani akarja, hogy az R2 konfigurációja nem problémás. Melyik eszközt használhatja az R2 routeren, hogy bizonyítsa, létezik kommunikáció a H1 gazdagéppel?",
+        "value": "kiterjesztett ping"
+    },
+    {
+        "name": "Egy kisvállalat hálózatának alapállapot-dokumentációja szerint a H1 és H3 gazdagépek közötti ping köridők statisztikái 36/97/132 voltak. Ma a hálózati rendszergazda ellenőrizte a kapcsolódást, és a ping köridők 1458/2390/6066 értéket mutattak. Mit jelez ez a rendszergazdának?",
+        "value": "Valami időbeli késleltetést okoz a hálózatok között."
+    },
+    {
+        "name": "Melyik hálózati szolgáltatás osztja ki automatikusan az IP-címeket az eszközöknek a hálózaton?",
+        "value": "DHCP"
+    },
+    {
+        "name": "Melyik parancsot kell végrehajtani egy routeren, hogy meghatározzák, melyik interfészt fogja használni a távoli hálózatok eléréséhez?",
+        "value": "show ip route"
+    },
+    {
+        "name": "Melyik két interfészen vagy porton javítható a biztonság végrehajtási időtúllépések konfigurálásával? (Válassz kettőt.)",
+        "value": "konzolportok, vty portok"
+    },
+    {
+        "name": "Amikor egy routeren SSH-t konfigurálnak a biztonságos hálózati kezelés érdekében, egy hálózati mérnök kiadja a login local és a transport input ssh parancsokat. Melyik három további konfigurációs lépést kell elvégezni az SSH konfigurációjának befejezéséhez? (Válassz hármat)",
+        "value": "Aszimmetrikus RSA kulcsok generálása. Helyes IP-domainnév beállítása. Érvényes helyi felhasználónév és jelszó adatbázis létrehozása."
+    },
+    {
+        "name": "Mi tekinthető a leghatékonyabb módnak egy féregtámadás csökkentésére?",
+        "value": "Download security updates from the operating system vendor and patch all vulnerable systems."
+    },
+    {
+        "name": "Melyik állítás írja le a ping és tracert parancsokat?",
+        "value": "A tracert megmutatja az egyes ugrásokat, míg a ping csak a cél válaszát mutatja."
+    },
+    {
+        "name": "Egy technikus dokumentálja az összes hálózati eszköz aktuális konfigurációját egy főiskola területén, beleértve a külső helyszíni épületeket is. Melyik protokoll lenne a legjobb a hálózati eszközök biztonságos eléréséhez?",
+        "value": "SSH"
+    },
+    {
+        "name": "Melyik parancsot kell konfigurálni a routeren az SSH konfiguráció befejezéséhez?",
+        "value": "transport input ssh"
+    },
+    {
+        "name": "Egy rendszergazda a „WhatAreyouwaiting4” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Erős, mert kifejezést használ."
+    },
+    {
+        "name": "Egy rendszergazda a „pR3s!d7n&0” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Erős, mert legalább 10 számot, betűt és speciális karaktert tartalmaz."
+    },
+    {
+        "name": "Egy rendszergazda a „5$7*4#033!” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Erős, mert 10 számot és speciális karaktert tartalmaz."
+    },
+    {
+        "name": "Egy rendszergazda a „pR3s!d7n&0” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Erős, mert legalább 10 számot, betűt és speciális karaktert tartalmaz."
+    },
+    {
+        "name": "Egy rendszergazda a „12345678!” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert számsorozatot vagy betűsort használ."
+    },
+    {
+        "name": "Egy rendszergazda az „admin” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert gyakran ez az alapértelmezett jelszó új eszközökön."
+    },
+    {
+        "name": "Egy rendszergazda a „Feb121978” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert könnyen elérhető személyes információkat használ."
+    },
+    {
+        "name": "Egy rendszergazda a „password” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert egy gyakran használt jelszó."
+    },
+    {
+        "name": "Egy rendszergazda a „RobErT” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert könnyen megtalálható személyes információkat használ."
+    },
+    {
+        "name": "Egy rendszergazda az „Elizabeth” jelszót választja egy újonnan telepített routerhez. Melyik állítás igaz erre a jelszóra?",
+        "value": "Gyenge, mert könnyen megtalálható személyes információkat használ."
+    },
+    {
+        "name": " Egy hálózati technikus hibaelhárítás közben szeretné ellenőrizni a router összes interfészének IP-címét. Melyik a legjobb parancs erre a célra?",
+        "value": "show ip interface brief"
+    },
+    {
+        "name": "A diákok, akik ugyanahhoz a switch-hez csatlakoznak, lassabb válaszidőt tapasztalnak, mint szokásos. A rendszergazda duplex beállítási problémát gyanít. Melyik a legjobb parancs ennek ellenőrzésére?",
+        "value": "show interfaces"
+    },
+    {
+        "name": "Egy felhasználó szeretné megtudni a PC IP-címét. Melyik a legjobb parancs erre?",
+        "value": "ipconfig"
+    },
+    {
+        "name": "Egy diák el szeretné menteni egy router konfigurációját az NVRAM-ba. Melyik a legjobb parancs erre?",
+        "value": "copy running-config startup-config"
+    },
+    {
+        "name": "Egy támogatási technikus szeretné megtudni a MAC eszköz vezeték nélküli interfészének IP-címét. Melyik a legjobb parancs erre?",
+        "value": "ipconfig getifaddr en0"
+    },
+    {
+        "name": "Egy hálózati technikus hibaelhárítás közben szeretné ellenőrizni a router összes IPv6 interfészének IP-címét. Melyik a legjobb parancs erre?",
+        "value": "show ipv6 interface"
+    },
+    {
+        "name": "Egy tanárnak nehézségei vannak a számítógépének csatlakoztatásával az osztálytermi hálózathoz. Ellenőrizni szeretné, hogy helyesen van-e beállítva egy alapértelmezett átjáró. Melyik a legjobb parancs erre?",
+        "value": "ipconfig"
+    },
+    {
+        "name": "Csak azok az alkalmazottak, akik IPv6 interfészekhez csatlakoznak, nehézségekkel találkoznak a távoli hálózatok elérésében. Az elemző ellenőrizni szeretné, hogy az IPv6 routing engedélyezve van-e. Melyik a legjobb parancs erre?",
+        "value": "show running-config"
+    },
+    {
+        "name": "Egy rendszergazda hibaelhárítás közben szeretné meghatározni egy weboldal IP-címét. Melyik a legjobb parancs erre?",
+        "value": "nslookup"
+    },
+    {
+        "name": "Csak azok az alkalmazottak, akik IPv6 interfészekhez csatlakoznak, nehézségekkel találkoznak a távoli hálózatok elérésében. Az elemző ellenőrizni szeretné, hogy az IPv6 routing engedélyezve van-e. Melyik a legjobb parancs erre?",
+        "value": "show running-config"
+    },
+    {
+        "name": "Melyik összetevő védi meg a számítógépet az illetéktelen kommunikációktól?",
+        "value": "firewall"
+    },
+    {
+        "name": "Melyik parancs blokkolja a RouterA-nál a bejelentkezési kísérleteket 30 másodpercre, ha 10 másodpercen belül 2 sikertelen kísérlet történik?",
+        "value": "RouterA(config)# login block-for 30 attempts 2 within 10"
+    },
+    {
+        "name": "Mi a hálózatbiztonsági elszámolási funkció célja?",
+        "value": "a felhasználói tevékenységek nyomon követése"
+    },
+    {
+        "name": "Milyen típusú támadás használhat olyan eszközöket, mint az nslookup és az fping?",
+        "value": "felderítő támadás"
+    },
+    {
+        "name": "Milyen előnyt nyújt az SSH a Telnet-hez képest egy router távoli kezelésében?",
+        "value": "titkosítás"
+    },
+    {
+        "name": "Mi az egyik leghatékonyabb biztonsági eszköz, amely megvédi a felhasználókat a külső fenyegetésektől?",
+        "value": "Tűzfal"
+    },
+    {
+        "name": "Melyik típusú hálózati fenyegetés akadályozza meg az engedélyezett felhasználókat az erőforrások elérésében?",
+        "value": "DoS támadások"
+    },
+    {
+        "name": "Melyik három szolgáltatást nyújtja az AAA keretrendszer? (Válassz hármat)",
+        "value": "naplózás"
+    },
+    {
+        "name": "Melyik rosszindulatú kód támadás önállóan működik, és megpróbál egy adott rendszer sebezhetőségét kihasználni?",
+        "value": "vírusféreg"
+    },
+    {
+        "name": "Néhány router és switch egy vezetékezési szekrényben meghibásodott, miután egy légkondicionáló egység elromlott. Milyen típusú fenyegetést ír le ez a helyzet?",
+        "value": "környezeti"
+    },
+    {
+        "name": "Mit jelent a sebezhetőség kifejezés?",
+        "value": "egy gyenge pont, amely a célpontot sebezhetővé/érzékennyé teszi egy támadásra."
+    },
+    {
+        "name": "Melyik három konfigurációs lépést kell végrehajtani az SSH hozzáférés megvalósításához egy routeren? (Válassz hármat)",
+        "value": "IP-domainnév, felhasználói fiók, egyedi hosztnév"
+    },
+    {
+        "name": "Mi a hálózati felderítő támadás célja?",
+        "value": "rendszerek felfedezése és feltérképezése"
+    },
+    {
+        "name": "Biztonsági okokból egy hálózati rendszergazdának biztosítania kell, hogy a helyi számítógépek ne tudjanak egymással pingelni. Melyik beállítás érheti el ezt?",
+        "value": "tűzfal beállítások"
+    },
+    {
+        "name": "Egy hálózati rendszergazda SSH segítségével csatlakozik egy switch-hez. Mi az SSH kapcsolat egyedi jellemzője?",
+        "value": "távoli hozzáférés egy switchhez, ahol az adatok titkosítva vannak a munkamenet alatt"
+    },
+    {
+        "name": "Melyik hálózattervezési szempont fontosabb egy nagyvállalat számára, mint egy kisvállalat számára?",
+        "value": "redundancia"
+    },
+    {
+        "name": "Egy új hálózati technikus megbízást kap új hardverek megrendelésére egy kisvállalat számára, amely nagy növekedési kilátásokkal rendelkezik. Melyik elsődleges tényezőt kell figyelembe venni az új eszközök kiválasztásakor?",
+        "value": "moduláris támogatással rendelkező eszközök"
+    },
+    {
+        "name": "Milyen típusú forgalom élvezné valószínűleg a legmagasabb prioritást a hálózaton keresztül?",
+        "value": "hang"
+    },
+    {
+        "name": "Egy hálózati technikus vizsgálja a hálózati kapcsolatot egy PC és egy távoli állomás között a 10.1.1.1.5 címmel. Melyik parancsot kiadva a Windows PC-n, melyik fogja megjeleníteni a távoli állomás elérési útvonalát?",
+        "value": "tracert 10.1.1.5"
+    },
+    {
+        "name": "Egy felhasználó nem éri el a weboldalt a http://www.cisco.com címmel, de azonos IP-címmel (http://72.163.4.161) eléri. Mi a probléma oka?",
+        "value": "DNS"
+    },
+    {
+        "name": "Hová kerülnek alapértelmezetten a Cisco IOS hibakeresési kimeneti üzenetei?",
+        "value": "konzolvonal"
+    },
+    {
+        "name": "A hálózati skálázhatóság melyik eleme foglalja magában a fizikai és logikai topológia azonosítását?",
+        "value": "hálózati dokumentáció"
+    },
+    {
+        "name": "Milyen mechanizmust lehet megvalósítani egy kis hálózatban a valós idejű adatfolyam-alkalmazások késleltetésének minimalizálása érdekében?",
+        "value": "QoS"
+    },
+    {
+        "name": "Melyik folyamat hibázott, ha egy számítógép nem tud csatlakozni az internethez, és IP-címe 169.254.142.5?",
+        "value": "DHCP"
+    },
+    {
+        "name": "Egy kisvállalatnak csak egy routere van, amely az ISP-hez való kilépési pontot biztosítja. Melyik megoldást lehetne alkalmazni a kapcsolat fenntartására, ha maga a router vagy az ISP-hez való kapcsolata meghibásodik?",
+        "value": "Egy második router használata, amely egy másik ISP-hez csatlakozik."
+    },
+    {
+        "name": "Mikor kell egy rendszergazdának hálózati mentést(alapállapotot) létrehoznia?",
+        "value": "Rendszeres időközönként, egy meghatározott időszakon keresztül."
+    },
+    {
+        "name": "Melyik két forgalomtípus igényel késleltetésérzékeny kézbesítést? (Válassz kettőt)",
+        "value": "Hang, videó"
+    },
+    {
+        "name": "Egy hálózati technikus duplex problémát gyanít egy Cisco switch két portja között. Melyik parancsot használhatja az 1. és 2. réteg részleteinek megtekintéséhez?",
+        "value": "show interfaces"
+    },
+    {
+        "name": "Melyik állítás igaz a Cisco CDP-re?​",
+        "value": "A CDP letiltható globálisan vagy egy adott interfészen."
+    },
+    {
+        "name": "Melyik tényezőt kell figyelembe venni egy kis hálózat tervezésekor, amikor az eszközöket választják ki?",
+        "value": "Az eszközök költsége"
+    }
+]

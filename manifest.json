@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "JSON Adatolvasó",
+    "version": "1.0",
+    "description": "Egy böngésző bővítmény JSON fájl adatainak megtekintésére és keresésére.",
+    "permissions": ["clipboardRead"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

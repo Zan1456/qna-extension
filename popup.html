@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCNA1 - Válaszok</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>CCNA1 - Válaszok</h1>
+      <div class="icons">
+        <button id="theme-toggle">🌙</button>
+        <button id="info-toggle" title="Segítség">ℹ️</button>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Keresés...">
+      <button id="paste-btn" title="Beillesztés">📋</button>
+      <button id="clear-btn" title="Törlés">❌</button>
+    </div>
+    <ul id="results"></ul>
+  </div>
+
+  <div id="help-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Üdv Puskás puskázó!</h2>
+      <p>Ezzel a bővítménnyel egyszerűen kereshetsz a kérdések és a válaszok között. Íme néhány tipp:</p>
+      <ul>
+        <li>Képek: A képre való kattintás új ablakban fogja megnyitni.</li>
+        <li>Sötét mód: A 🌙 gombbal válthatsz a sötét és világos mód között.</li>
+        <li>Beillesztés: Használd a 📋 gombot a vágólap tartalmának beillesztéséhez.</li>
+      </ul>
+      <button id="close-modal">Bezárás</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

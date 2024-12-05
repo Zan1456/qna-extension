@@ -1,10 +1,12 @@
 # Kérdés - Válasz bővítmény
 
 ## Telepítés
-1. Töltsd le a xy.zip fájlt a [kiadások](https://github.com/Zan1456/qna-extension/releases/tag/1.0) (releases) oldalon.
-![image](https://github.com/user-attachments/assets/5a4af61d-5414-4f50-bbdd-c123fdd3d130)
+1. Töltsd le a 1.0.zip fájlt a [kiadások](https://github.com/Zan1456/qna-extension/releases/tag/1.0) (releases) oldalon.
+![image](https://github.com/user-attachments/assets/b9163a13-82ad-4eb3-bc81-19ea3b58dea3)
+
 2. Menj fel [erre](chrome://extensions/) az oldalra és kapcsold be a fejlesztői módot.
 ![image](https://github.com/user-attachments/assets/9eb0a011-5ecb-4102-bb9a-f9227af41b6c)
+
 3. Húzd erre az oldalra a bővítményt és egy ilyen bővítményt kell látnod:
 ![image](https://github.com/user-attachments/assets/79c5854c-9f23-45ba-9fb5-d9c7770bb121)
 

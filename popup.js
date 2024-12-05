@@ -65,7 +65,7 @@ fetch("data.json")
         }
 
         searchInput.value = text;
-        searchInput.dispatchEvent(new Event("input")); // Frissítse az eredményeket
+        searchInput.dispatchEvent(new Event("input"));
       } catch (err) {
         console.error("Hiba a vágólap beillesztésekor:", err);
         alert("Nem sikerült beilleszteni a vágólap tartalmát.");

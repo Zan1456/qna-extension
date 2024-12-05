@@ -17,9 +17,21 @@
     </div>
     <div class="search-container">
       <input type="text" id="search" placeholder="Keresés...">
-      <button id="paste-btn" title="Beillesztés">📋</button>
-      <button id="clear-btn" title="Törlés">❌</button>
     </div>
+    <div class="filter-container">
+      <button id="filter-all" class="filter-btn active" data-filter="all" title="Összes">
+        🔍
+      </button>
+      <button id="filter-questions" class="filter-btn" data-filter="questions" title="Csak kérdések">
+        ❓
+      </button>
+      <button id="filter-answers" class="filter-btn" data-filter="answers" title="Csak válaszok">
+        💬
+      </button>
+      <button id="filter-with-images" class="filter-btn" data-filter="with-images" title="Csak képes elemek">
+        🖼️
+      </button>
+    </div>  
     <ul id="results"></ul>
   </div>
 

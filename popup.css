@@ -239,3 +239,40 @@ body.dark #results li:hover {
 .modal-content button:hover {
   background: #005bb5;
 }
+
+/* Szűrők */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-btn {
+  background: #f0f0f000;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.filter-btn:hover {
+  background: #52526875;
+  transform: scale(1.1);
+}
+
+.filter-btn.active {
+  background: #35354465;
+  color: rgb(255, 255, 255);
+}
+
+/* Nincs találat üzenet */
+.no-results {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  font-style: italic;
+}

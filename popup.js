@@ -3,11 +3,21 @@ fetch("data.json")
   .then(data => {
     const searchInput = document.getElementById("search");
     const resultsList = document.getElementById("results");
-    const pasteButton = document.getElementById("paste-btn");
-    const clearButton = document.getElementById("clear-btn");
+    const filterButtons = document.querySelectorAll(".filter-btn");
+
+    let currentFilter = "all";
 
     function renderResults(results) {
       resultsList.innerHTML = "";
+
+      if (results.length === 0) {
+        const noResults = document.createElement("li");
+        noResults.textContent = "Nincs találat.";
+        noResults.className = "no-results";
+        resultsList.appendChild(noResults);
+        return;
+      }
+
       results.forEach(item => {
         const li = document.createElement("li");
         li.className = "result-item";
@@ -42,44 +52,42 @@ fetch("data.json")
       });
     }
 
+    function applyFilter(query) {
+      const filteredData = data.filter(item => {
+        switch (currentFilter) {
+          case "questions":
+            return item.name.toLowerCase().includes(query);
+          case "answers":
+            return item.value.toLowerCase().includes(query);
+          case "with-images":
+            return item.image && (item.name.toLowerCase().includes(query) || item.value.toLowerCase().includes(query));
+          default:
+            return item.name.toLowerCase().includes(query) || item.value.toLowerCase().includes(query);
+        }
+      });
+      renderResults(filteredData);
+    }
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        filterButtons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        currentFilter = button.dataset.filter;
+        const query = searchInput.value.toLowerCase();
+        applyFilter(query);
+      });
+    });
+
     searchInput.addEventListener("input", () => {
       const query = searchInput.value.toLowerCase();
-      const filteredData = data.filter(item =>
-        item.name.toLowerCase().includes(query) || 
-        item.value.toLowerCase().includes(query)
-      );
-      renderResults(filteredData);
-    });
-
-    pasteButton.addEventListener("click", async () => {
-      try {
-        if (!navigator.clipboard) {
-          alert("A vágólap API nem támogatott ezen a böngészőn.");
-          return;
-        }
-
-        const text = await navigator.clipboard.readText();
-        if (!text) {
-          alert("A vágólap üres.");
-          return;
-        }
-
-        searchInput.value = text;
-        searchInput.dispatchEvent(new Event("input"));
-      } catch (err) {
-        console.error("Hiba a vágólap beillesztésekor:", err);
-        alert("Nem sikerült beilleszteni a vágólap tartalmát.");
-      }
-    });
-
-    clearButton.addEventListener("click", () => {
-      searchInput.value = "";
-      searchInput.dispatchEvent(new Event("input"));
+      applyFilter(query);
     });
 
     renderResults(data);
   })
   .catch(error => console.error("Hiba a JSON betöltésekor:", error));
+
 
 // Dark-Light mode
 const themeToggle = document.getElementById("theme-toggle");

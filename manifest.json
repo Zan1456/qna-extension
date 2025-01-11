@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "CCNA1 - Válaszok",
-  "version": "1.1",
+  "name": "Teszt kereső",
+  "version": "1.2",
   "description": "Egy böngésző bővítmény a teszt kérdéseinek keresésére.",
   "permissions": ["clipboardRead"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }

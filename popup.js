@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('https://raw.githubusercontent.com/Zan1456/qna-extension/refs/heads/main/data.json')
   .then(response => response.json())
   .then(data => {
     const searchInput = document.getElementById("search");

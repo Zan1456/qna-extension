@@ -1,288 +1,317 @@
 [
     {
-        "name": "1. Mi a célja az OSI fizikai rétegnek?",
-        "value": "Bitek továbbítása a helyi médián keresztül"
+        "name": "1.Milyen információt használnak az útválasztók az adatcsomagok továbbításához a célállomás felé?",
+        "value": "cél IP-cím"
     },
     {
-        "name": "2. Miért használnak két szál rostot egy száloptikai kapcsolathoz?",
-        "value": "Ezek lehetővé teszik a teljes duplex csatlakozást."
+        "name": "2.Egy számítógépnek csomagot kell küldenie egy célállomásnak ugyanabban a LAN-ban. Hogyan fogjuk elküldeni a csomagot?",
+        "value": "A csomagot közvetlenül a célállomáshoz küldi."
     },
     {
-        "name": "3. Melyik tulajdonság jellemzi a keresztbeszélgetést/crosstalkot?",
-        "value": "Az átvitt üzenetek torzulása a szomszédos vezetékeken szállított jelekből eredő torzulások miatt."
+        "name": "3.Az útválasztó csomagot kap a Gigabit 0/0 interfészről, és megállapítja, hogy a csomagot a Gigabit 0/1 interfészen kell továbbítani. Mit fog ezután tenni az útválasztó?",
+        "value": "Új 2. rétegbeli Ethernet-keret létrehozása, amelyet a célállomásra kell küldeni"
     },
     {
-        "name": "4. Melyik eljárást alkalmazzák a rézkábeleknél az áthallás hatásának csökkentésére?",
-        "value": "ellentétes áramköri vezetékpárok összecsavarása"
+        "name": "4.Melyik IPv4-címet használhatja egy állomás a loopback interfész pingelésére?",
+        "value": "127.0.0.1"
     },
     {
-        "name": "5. Párosítsa a helyzetet a hálózati médiumok megfelelő használatával.",
-        "value": "Rézkábel: vízszintes kábelezési struktúra/szerkezet, asztali számítógépek egy vállalati irodában ◢◤ Optikai/Üvegszálas kábel: gerinchálózati kábelezés egy vállalatnál, nagy hatótávolságú hálózat ◢◤ Vezetéknélküli: várótermek egy kórházban, vendégeknek (Wi-Fi) hozzáférés egy kávézóban"
+        "name": "5.Egy számítógép hozzáférhet az ugyanazon a hálózaton lévő eszközökhöz, de nem férhet hozzá más hálózatokon lévő eszközökhöz. Mi lehet a probléma valószínű oka?",
+        "value": "A számítógép alapértelmezett átjárójának címe érvénytelen."
     },
     {
-        "name": "6. A hálózati rendszergazda egy kritikus fontosságú pénzügyi alkalmazás számára méri a bitek átvitelét a vállalat gerinchálózatán. A rendszergazda észreveszi, hogy a hálózati átviteli teljesítmény alacsonyabbnak tűnik a várt sávszélességnél. Melyik három tényező befolyásolhatja az áteresztőképességbeli különbségeket? (Válasszon ki hármat.)",
-        "value": "a hálózaton jelenleg áthaladó forgalom mennyisége ◢◤ a hálózati forgalom típusa ◢◤ a késleltetés, amelyet a hálózati eszközök száma okoz, amelyeken az adatok áthaladnak."
+        "name": "6.Melyik állítás írja le az IP protokoll egyik jellemzőjét?",
+        "value": "Az IP a felső réteg szolgáltatásaira támaszkodik a hiányzó vagy rendezetlen csomagok kezelésében."
     },
     {
-        "name": "7. Mi az optikai kábel két jellemzője? (Válasszon kettőt.)",
-        "value": "EMI vagy RFI nem befolyásolja ◢◤ Ez drágább, mint az UTP kábelezés"
+        "name": "7.Miért nincs szükség NAT-ra az IPv6 esetében?",
+        "value": "Bármely állomás vagy felhasználó kaphat nyilvános IPv6 hálózati címet, mivel a rendelkezésre álló IPv6-címek száma rendkívül nagy."
     },
     {
-        "name": "8. Mi a fizikai réteg elsődleges szerepe a hálózaton történő adattovábbításban?",
-        "value": "létrehozza a jeleket, amelyek az egyes képkockák bitjeit képviselik a médián."
+        "name": "8.Melyik paramétert használja az útválasztó a célállomáshoz vezető útvonal kiválasztásához, ha több útvonal is rendelkezésre áll?",
+        "value": "Az alacsonyabb metrikus értéket, amely a célhálózathoz tartozik."
     },
     {
-        "name": "9. Mi okozza az árnyékolatlan csavart rézhuzal használatát a hálózatban, mi okozza a kábelpárokon belüli keresztbeszélést?",
-        "value": "a mágneses mező a szomszédos huzalpárok körül"
+        "name": "9.Mi az OSI hálózati réteg által nyújtott két szolgáltatás? (Válasszon kettőt.)",
+        "value": "csomagok útválasztása a célállomás felé; a PDU-k kapszulázása/beágyazása a szállítási rétegről"
     },
     {
-        "name": "10. Lásd a grafikont. Milyen típusú kábelezés látható?",
-        "value": "üvegszálas kábel",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-11_180314-300x234-1.jpg"
+        "name": "10.Egy termelő hálózaton belül mi a célja annak, hogy egy switchet alapértelmezett átjáró címmel konfiguráljunk?",
+        "value": "Az alapértelmezett átjáró címét a kapcsolóból származó csomagok távoli hálózatok felé történő továbbítására használják."
     },
     {
-        "name": "11. A kábelhosszon kívül melyik két tényező zavarhatja az UTP-kábeleken keresztül történő kommunikációt? (Válasszon kettőt.)",
-        "value": "keresztbeszélgetés/crosstalk/keresztkommunikáció ◢◤ elektromágneses interferencia"
+        "name": "11.Mi az IP protokoll egyik alapvető jellemzője?",
+        "value": "kapcsolat nélküli/kapcsolat mentes"
     },
     {
-        "name": "12. Lásd a grafikont. Milyen típusú kábelezés látható?",
-        "value": "UTP",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-11_180547.jpg"
+        "name": "12.Az IPv4 fejléc melyik mezőjét használják arra, hogy megakadályozzák, hogy egy csomag a végtelenségig haladjon a hálózaton?",
+        "value": "Time-to-Live (Életben tartási idő) /Élettartam"
     },
     {
-        "name": "13. Melyik két eszköz befolyásolja a vezeték nélküli hálózatokat? (Válasszon kettőt.)",
-        "value": "vezeték nélküli telefonok ◢◤ mikrohullámú sütők"
+        "name": "13.Mi az egyik előnye az IPv6 egyszerűsített fejlécének az IPv4-gyel szemben?",
+        "value": "hatékony csomagkezelés/csomagfeldolgozás"
     },
     {
-        "name": "14. Melyik két állítás jellemzi az adatkapcsolati réteg által nyújtott szolgáltatásokat? (Válasszon kettőt.)",
-        "value": "A különböző 3 rétegbeli PDU-kat a hálózati interfésszel kompatibilis keretformátumba csomagolja ◢◤ Kezeli a keretek hálózati médiához való hozzáférését."
+        "name": "14.Melyik IPv4 fejlécmező azonosítja a csomagban szállított felső rétegbeli protokollt?",
+        "value": "protokoll"
     },
     {
-        "name": "15. Mi a funkciója a keret FCS-mezőjében található CRC-értéknek?",
-        "value": "a fogadott keret integritásának ellenőrzése"
+        "name": "15.Lásd a kiállítást. Párosítsa a csomagokat a cél IP-címükkel az útválasztó kilépő interfészeinek. (Nem minden célpontot használunk.)",
+        "value": "FastEthernet0/0: csomag a 172.17.6.15 célállomással; FastEthernet0/1: csomag a 172.17.14.8 célállomással; FastEthernet1/0: csomag a 172.17.12.10 célállomással; FastEthernet1/1: csomag a 172.17.10.5 célállomással; Serial0/0/0: csomag a 172.17.8.20 célállomással; kimarad: a csomagot visszadobják/eldobják",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811.png"
     },
     {
-        "name": "16. Mit tartalmaz az adatkapcsolati keret utánfutója?",
-        "value": "hibaérzékelés/hiba felismerés"
+        "name": "16.Milyen információt szolgáltat a loopback teszt?",
+        "value": "Az eszköz TCP/IP stackje megfelelően működik."
     },
     {
-        "name": "17. Melyik állítás írja le az adatkapcsolati réteg keretfejléc mezőinek egyik jellemzőjét?",
-        "value": "A protokolloktól függően változnak."
+        "name": "17.Melyik útválasztási tábla bejegyzése rendelkezik a célhálózathoz tartozó következő ugrás címmel?",
+        "value": "távoli útvonalak/utak"
     },
     {
-        "name": "18. Egy hálózati csoport fizikai WAN-topológiákat hasonlít össze a távoli telephelyek és a központi épület összekapcsolására. Melyik topológia biztosít magas rendelkezésre állást és kapcsol össze néhány, de nem az összes távoli telephelyet?",
-        "value": "részleges háló"
+        "name": "18.Hogyan biztosítják a hosztok, hogy csomagjaikat a megfelelő hálózati célállomásra irányítsák?",
+        "value": "Saját helyi útválasztási táblázatot kell vezetniük, amely tartalmaz egy útvonalat a loopback interfészhez, egy helyi hálózati útvonalat és egy távoli alapértelmezett útvonalat."
     },
     {
-        "name": "19. Melyik két mezőt vagy jellemzőt vizsgálja az Ethernet annak eldöntésére, hogy a fogadott keretet továbbítja-e az adatkapcsolati rétegnek, vagy az NIC elveti? (Válasszon kettőt.)",
-        "value": "keretellenőrzési sorrend ◢◤ minimális képkockaméret"
+        "name": "19.A valós idejű alkalmazások, például a streaming audio és videó adatainak továbbítása során az IPv6 fejléc melyik mezője használható arra, hogy tájékoztassa az útválasztókat és a kapcsolókat, hogy az azonos beszélgetésben lévő csomagok számára ugyanazt az útvonalat tartsák fenn?",
+        "value": "folyamcímke/áramlási címke"
     },
     {
-        "name": "20. Melyik médiakommunikációs típus nem igényel médiaszabályozást az adatkapcsolati rétegben?",
-        "value": "full/teljes-duplex"
+        "name": "20.Melyik állítás írja le a címfeloldó protokoll működését?",
+        "value": "Az ARP a helyi hálózaton lévő bármely állomás MAC-címének felderítésére szolgál."
     },
     {
-        "name": "21. Melyik állítás írja le a kiterjesztett csillagtopológiát?",
-        "value": "A végberendezések egy központi közvetítő eszközhöz csatlakoznak, amely viszont más központi közvetítő eszközökhöz csatlakozik."
+        "name": "21.Melyik két esetben fog egy switch minden porton elárasztani egy keretet, kivéve azt a portot, amelyen a keretet fogadták? (Válasszon kettőt.)",
+        "value": "A keret célcímeként a broadcast cím szerepel.; A célcím ismeretlen a switch számára."
     },
     {
-        "name": "22. Mi az LLC alréteg egyik jellemzője?",
-        "value": "Információkat helyez el a keretben, lehetővé téve több 3. rétegbeli protokoll számára, hogy ugyanazt a hálózati interfészt és médiát használják."
+        "name": "22.Melyik állítás írja le az ARP-kérelmek kezelését a helyi kapcsolaton?",
+        "value": "Ezeket a helyi hálózat minden eszköze fogadja és feldolgozza."
     },
     {
-        "name": "23. Mi a három módja annak, hogy a hálózatépítésben a médiáhozzáférésszabályozást használják? (Válasszon ki hármat.)",
-        "value": "Az Ethernet CSMA/CD-t használ ◢◤ A médiáhozzáférés-vezérlés biztosítja az adatkeretek elhelyezését a médián ◢◤ Az adatkapcsolati réteg protokolljai határozzák meg a különböző médiumokhoz való hozzáférés szabályait."
+        "name": "23.Milyen célcímet használnak egy ARP-kérelmi keretben?",
+        "value": "FFFF.FFFF.FFFF"
     },
     {
-        "name": "24. Mi történik a kapszulázási folyamat során az adatkapcsolati rétegben egy Ethernet-hálózathoz csatlakoztatott számítógép esetében?",
-        "value": "A fizikai cím hozzáadásra kerül."
+        "name": "24.Egy hálózati technikus kiadja az arp -d * parancsot egy számítógépen, miután a LAN-hoz csatlakoztatott útválasztót átkonfigurálták. Mi az eredmény a parancs kiadása után?",
+        "value": "Az ARP gyorsítótár/cache törlődik."
     },
     {
-        "name": "25. Milyen három elemet tartalmaz az Ethernet fejléc és a csatoló? (Válasszon hármat.)",
-        "value": "cél MAC-cím ◢◤ hibaellenőrző információ ◢◤ forrás MAC-cím"
+        "name": "25.Lásd a kiállítást. A képen egy kis kapcsolt hálózat és a kapcsoló MAC- címtáblájának tartalma látható. PC1 egy keretet küldött PC3-nak címezve. Mit fog a switch csinálni a kerettel?",
+        "value": "A kapcsoló a 4. port kivételével az összes portra továbbítja a keretet.",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i275394v1n1_207267.png"
     },
     {
-        "name": "26. Milyen típusú kommunikációs szabály jellemzi legjobban a CSMA/CD-t?",
-        "value": "elérési/hozzáférési mód"
+        "name": "26.Melyik két típusú IPv6-üzenetet használják az ARP helyett a címfeloldáshoz?",
+        "value": "szomszédkérés; szomszéd hirdetés"
     },
     {
-        "name": "27. Melyik három alapvető rész közös az adatkapcsolati réteg által támogatott összes kerettípusban? (Válasszon ki hármat.)",
-        "value": "fejléc ◢◤ adatok ◢◤ utánfutó/trailer"
+        "name": "27.Mi a célja az ARP spoofing/hamisítás támadásnak?",
+        "value": "IP-címek hozzárendelése/társítása a rossz MAC-címhez"
     },
     {
-        "name": "28. Melyik állítás igaz az Ethernetben használt CSMA/CD hozzáférési módszerrel kapcsolatban?",
-        "value": "Minden hálózati eszköznek hallgatnia kell az adás előtt."
+        "name": "28.Lásd a kiállítást. A PC1 megpróbál csatlakozni a File_server1-hez, és ARP- kérést küld a cél MAC-címének megadására. Melyik MAC-címet kapja meg a PC1 az ARP-válaszban?",
+        "value": "az R1 G0/0 interfészének MAC-címe / a G0/0 interfész MAC-címe az R1-en",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-11_210907.jpg"
     },
     {
-        "name": "29. Mi az auto-MDIX funkció egy kapcsolón?",
-        "value": "interfész automatikus konfigurálása egyenes vagy keresztezett Ethernet kábelkapcsolathoz"
+        "name": "29.Hol tartják fenn az IPv4-címek 2. rétegbeli Ethernet-címekhez való hozzárendelését az állomásszámítógépen?",
+        "value": "ARP cache/ gyorsítótár"
     },
     {
-        "name": "30. Lásd a kiállítást. Mi a cél MAC-címe az Ethernet-keretnek, amikor elhagyja a webkiszolgálót, ha a végső célállomás a PC1?",
-        "value": "00-60-2F-3A-07-CC",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i209881v1n2_209881.png"
+        "name": "30.Milyen fontos információt vizsgál meg az Ethernet-keret fejlécében egy 2. rétegbeli eszköz az adatok továbbítása érdekében?",
+        "value": "cél MAC-cím"
     },
     {
-        "name": "31. A 2.rétegbeli switch arra szolgál, hogy a bejövő kereteket egy 1000BASE-T portról egy 100Base-T hálózathoz csatlakoztatott portra kapcsolja át. Melyik memóriapufferelési módszer lenne a legmegfelelőbb erre a feladatra?",
-        "value": "megosztott/közös memória pufferelés"
+        "name": "31.Párosítsa a parancsokat a megfelelő műveletekhez. (Nem minden opciót használunk.)",
+        "value": "Router(config) # hostname CL1: konfigurálja a nevet az útválasztón; Router(config-line) # password class: biztosítja a konzol biztonságát / biztonságot biztosít a konzolon; Router(config) # banner motd #: üzenetet jelenít meg az útválasztó elérésekor; kimarad: Router(config)# enable password Cisco, Router(config)# password Cisco"
     },
     {
-        "name": "32. Mi a két példa az átkapcsolási módszerre? (Válasszon kettőt.)",
-        "value": "gyors előre kapcsolás ◢◤ töredékmentes kapcsolás/váltás"
+        "name": "32.Egy új hálózati rendszergazdát arra kértek, hogy adjon meg egy bannerüzenetet egy Cisco-eszközön. Mi a leggyorsabb módja annak, hogy a hálózati rendszergazda tesztelje, hogy a banner megfelelően van-e konfigurálva?",
+        "value": "Lépjen ki a privilegizált EXEC üzemmódból, és nyomja meg az Enter billentyűt."
     },
     {
-        "name": "33. Melyik kerettovábbítási módszer fogadja a teljes keretet, és a keret továbbítása előtt CRC-ellenőrzést végez a hibák észlelésére?",
-        "value": "tároló és továbbító kapcsolás"
+        "name": "33.A hálózati rendszergazdának hozzáférésre van szüksége az útválasztók és kapcsolók helyi és távoli kezeléséhez. Párosítsa a leírást a hozzáférési módszerrel. (Nem minden lehetőség használatos.)",
+        "value": "SSH: titkosítást használó távoli hozzáférési módszer; console: előnyben részesített sávon kívüli hozzáférési módszer; FTP: kimarad; AUX: távoli hozzáférés betárcsázós kapcsolaton keresztül; Telnet: nem biztonságos távoli hozzáférés"
     },
     {
-        "name": "34. Mi a célja az FCS mezőnek egy keretben?",
-        "value": "annak megállapítására, hogy történt-e hiba az adás és vétel során"
+        "name": "34.Párosítsa a fázisokat a Cisco útválasztó rendszerindítás során végzett funkciókhoz. (Nem minden lehetőség használatos.)",
+        "value": "a Cisco IOS szoftver megkeresése és betöltése: 2.fázis/lépés; belép a beállítási üzemmódba: kimarad; keresse meg és töltse be az indítási konfigurációs fájlt: 3. fázis/lépés; elvégzi a POST-ot és betölti a bootstrap programot: 1. fázis/lépés"
     },
     {
-        "name": "35. Melyik kapcsolási módszernek van a legkisebb késleltetése?",
-        "value": "gyorselőretöltés/fast-forward"
+        "name": "35.Párosítsa a parancsot azzal az eszköz üzemmóddal, amelyben a parancsot beadta. (Nem minden opciót használunk.)",
+        "value": "R1(config)#: service password-encryption; R1>: enable; R1(config-router)#: kimarad; R1#: copy running-config startup-config; R1(config-line)#: login; R1(config-if)#: ip address 192.168.4.4 255.255.255.0"
     },
     {
-        "name": "36. Egy hálózati rendszergazda két modern switchet köt össze egy egyenes kábel segítségével. A kapcsolók újak, és még soha nem voltak konfigurálva. Melyik három állítás helyes a kapcsolat végeredményével kapcsolatban? (Válasszon ki hármat.)",
-        "value": "A kapcsolók közötti kapcsolat a két kapcsoló által támogatott leggyorsabb sebességgel működik ◢◤ A kapcsolók közötti kapcsolat teljes duplex sebességgel működik ◢◤ Az auto-MDIX funkció konfigurálja az interfészeket, így nincs szükség crossover kábelre."
+        "name": "36.Mi az NVRAM két funkciója? (Válasszon kettőt.)",
+        "value": "a tartalom megtartása a tápellátás megszüntetése esetén; az indítási konfigurációs fájl tárolása"
     },
     {
-        "name": "37. Milyen előnye van a store-and-forward/tárolási és továbbító kapcsolási módszernek a cut-through/átvágott kapcsolási módszerrel szemben?",
-        "value": "kerethiba ellenőrzése"
+        "name": "37.Az útválasztó elindul és beállítási módba lép. Mi az oka ennek?",
+        "value": "A konfigurációs fájl hiányzik az NVRAM-ból."
     },
     {
-        "name": "38. A tároló és továbbító kapcsolási módszer használatakor az Ethernet-keret melyik része szolgál hibaellenőrzésre?",
-        "value": "CRC az utánfutóban/pótkocsiban"
+        "name": "38.Az ip default-gateway 172.16.100.1 globális konfigurációs parancsot alkalmazza egy kapcsolóra. Milyen hatása van ennek a parancsnak?",
+        "value": "A kapcsoló távolról is kezelhető egy másik hálózaton lévő állomásról."
     },
     {
-        "name": "39. Melyik kapcsolási módszer használja a CRC-értéket a keretben?",
-        "value": "tárolási és továbbítási/store-and-forward"
+        "name": "39.Mi történik, ha a transport input ssh parancsot a switch vty vonalakon adjuk meg?",
+        "value": "A kapcsoló és a távoli felhasználók közötti kommunikáció titkosított."
     },
     {
-        "name": "40. Mi az a két művelet, amelyet egy Cisco switch végez? (Válasszon kettőt.)",
-        "value": "a keretek forrás MAC-címének felhasználása egy MAC-címtábla létrehozásához és karbantartásához ◢◤ a MAC-címtáblázat felhasználása a cél MAC-címen keresztüli keretek továbbítására"
+        "name": "40.Lásd a kiállítást. Egy felhasználói PC sikeresen továbbított csomagokat a www.cisco.com címre. Melyik IP-címet célozza meg a felhasználói PC, hogy továbbítsa az adatokat a helyi hálózatról?",
+        "value": "172.20.0.254",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i207589v1n1_207589.png"
     },
     {
-        "name": "41. Melyik két állítás írja le az Ethernet-szabványok logikai kapcsolatvezérlő alrétegének jellemzőit vagy funkcióit? (Válasszon kettőt.)",
-        "value": "A logikai kapcsolatvezérlés szoftveresen valósul meg ◢◤ Az adatkapcsolati réteg az LLC-t használja a protokollcsomag felsőbb rétegeivel való kommunikációra."
+        "name": "41.Párosítsa a konfigurációs módot az abban a módban elérhető paranccsal. (Nem minden opciót használunk.)",
+        "value": "enable: R1>; copy running-config startup-config: R1#; login: R1(config-line)#; interface fastEthernet0/0: R1(config)#; kimarad: R1(config-router)#"
     },
     {
-        "name": "42. Mi az auto-MDIX funkciója?",
-        "value": "Lehetővé teszi az eszköz számára, hogy automatikusan konfigurálja az interfészt, hogy egyenes vagy keresztezett kábelt használjon."
+        "name": "42.Melyik három parancsot használjuk az útválasztó biztonságos elérésének beállítására a konzolinterfészhez való csatlakozáson keresztül? (Válasszon hármat.)",
+        "value": "line console 0; login; password cisco"
     },
     {
-        "name": "43. Mi az egyik előnye az átvágásos kapcsolási módszer használatának a tároló és továbbító kapcsolási módszerrel szemben?",
-        "value": "a nagy teljesítményű számítástechnikai alkalmazásokhoz megfelelő alacsonyabb késleltetéssel rendelkezik"
+        "name": "43.Lásd a kiállítást. Tekintsük a PC1-en látható IP-címkonfigurációt. Mi a leírása az alapértelmezett átjáró címének?",
+        "value": "Ez a Router1 interfész IP-címe, amely a PC1 LAN-t a Router1-hez köti.",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i206397v1n2_206397.png"
     },
     {
-        "name": "44.Melyik a multicast/szórásos/csapatos elküldésű MAC-cím?",
-        "value": "01-00-5E-00-00-03"
+        "name": "44.Melyik két funkció az útválasztó elsődleges funkciója? (Válasszon kettőt.)",
+        "value": "csomagtovábbítás/csomgaküldés; útvonal kiválasztása"
     },
     {
-        "name": "45. Lásd a kiállítást. Mi a baj a megjelenített végződtetéssel?",
-        "value": "A sodratlan huzalok túl hosszúak.",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i274300v1n1_209630-300x221-1.png"
+        "name": "45.Milyen hatása van a Router# copy running-config startup-config parancs használatának egy útválasztón?",
+        "value": "Az NVRAM tartalma megváltozik."
     },
     {
-        "name": "46. Lásd a kiállítást. A számítógép a kapcsoló konzolportjához van csatlakoztatva. Az összes többi kapcsolat FastEthernet/GyorsInternet kapcsolaton keresztül történik. Milyen típusú UTP-kábeleket használhatunk az eszközök csatlakoztatására?",
-        "value": "1 - rollover, 2 - egyenes átmenő, 3 – crossover",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i274301v1n1_206934.png"
+        "name": "46.Mi történik, ha egy állomáson helytelenül van beállítva az alapértelmezett átjáró címe?",
+        "value": "Az állomás nem tud kommunikálni más hálózatokban lévő állomással."
     },
     {
-        "name": "47. Nyissa meg a PT tevékenységet. Végezze el a tevékenység utasításában szereplő feladatokat, majd válaszoljon a kérdésre. Melyik portot használja a Switch0 a 10.1.1.5 IPv4-című állomásnak küldött keretek küldésére?",
-        "value": "Fa0/11",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/2020-03-08_212125-1.jpg"
+        "name": "47.Mi az a két lehetséges hálózati probléma, amely az ARP működéséből adódhat? (Válasszon kettőt.)",
+        "value": "Az alacsony sávszélességű, nagy hálózatokon a többszörös ARP- közvetítések késedelmet okozhatnak az adatátvitelben.; A hálózati támadók manipulálhatják az ARP-üzenetekben szereplő MAC-cím és IP-cím hozzárendeléseket azzal a céllal, hogy a hálózati forgalmat lehallgassák."
     },
     {
-        "name": "48. Mit jelent a \"csillapítás\" kifejezés az adatkommunikációban?",
-        "value": "a távolság növekedésével csökken a jelerősség"
+        "name": "48.Nyissa meg a PT tevékenységet. Végezze el a tevékenység utasításában szereplő feladatokat, majd válaszoljon a kérdésre.",
+        "value": "R1: G0/0 and S0/0/0; R2: G0/1 and S0/0/0",
+        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam.jpg"
     },
     {
-        "name": "49. Miért előnyösebb az üvegszálas kábelezés az épületek összekapcsolásánál a rézkábellel szemben? (Válasszon ki hármat.)",
-        "value": "nagyobb távolságok kábelfuttatásonként ◢◤ korlátozott EMI/RFI-érzékenység ◢◤ nagyobb sávszélességi potenciál"
+        "name": "49.Melyik kifejezés írja le az IPv4 csomagfejlécben a következő szintű protokoll azonosítására használt mezőt?",
+        "value": "protokoll"
     },
     {
-        "name": "50. Melyik OSI fizikai réteg kifejezés írja le azt a folyamatot, amelynek során egy hullám módosít egy másik hullámot?",
-        "value": "moduláció/modulálás"
+        "name": "50.Melyik kifejezés írja le az IPv4 csomagfejlécben található mezőt, amely egy 8 bites bináris értéket tartalmaz, és az egyes csomagok prioritásának meghatározására szolgál?",
+        "value": "megkülönböztetett/differenciált szolgáltatások"
     },
     {
-        "name": "51. Melyik OSI fizikai réteg kifejezés írja le azt a kapacitást, amellyel egy médium/média képes adatot továbbítani?",
-        "value": "sávszélesség"
+        "name": "51.Melyik kifejezés írja le az IPv4 csomagfejléc azon mezőjét, amely egy 32 bites bináris értéket tartalmaz, amely a küldő eszköz egy interfészéhez kapcsolódik?",
+        "value": "forrás IPv4 cím"
     },
     {
-        "name": "52. Melyik OSI fizikai réteg kifejezés írja le a bitek átvitelének mértékét egy médiumon egy adott idő alatt?",
-        "value": "áteresztőképesség/átviteli sebesség"
+        "name": "52.Melyik kifejezés írja le az IPv4-csomag fejlécében található mezőt, amelyet az IPv4-fejléc sérülésének észlelésére használnak?",
+        "value": "fejléc ellenőrző összege"
     },
     {
-        "name": "53. Melyik OSI fizikai réteg kifejezés írja le azt az időt, beleértve a késleltetéseket is, amely alatt az adatok eljutnak az egyik pontból a másikba?",
-        "value": "késleltetés/ késedelem"
+        "name": "53.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását tervezi a bérszámfejtési LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "10.27.14.148",
+        "image": "https://i.ibb.co/mCnC2pgB/k-p.png"
     },
     {
-        "name": "54. Melyik OSI fizikai réteg kifejezés írja le azt az időt, beleértve a késleltetéseket is, amely alatt az adatok eljutnak az egyik pontból a másikba?",
-        "value": "késleltetés/ késedelmi idő"
+        "name": "54.Melyik kifejezés írja le az IPv4 csomagfejléc azon mezőjét, amely unicast, multicast vagy broadcast címet tartalmaz?",
+        "value": "cél IPv4-cím"
     },
     {
-        "name": "55. Melyik OSI fizikai réteg kifejezés írja le az adott idő alatt átvitt felhasználható adatmennyiség mértékét?",
-        "value": "jó teljesítmény/goodput"
+        "name": "55.Melyik kifejezés írja le az IPv4 csomagfejlécben található mezőt, amelyet a csomag élettartamának korlátozására használnak?",
+        "value": "TTL (Time-to-Live)"
     },
     {
-        "name": "56. Melyik OSI fizikai réteg kifejezés írja le az elektromos impulzusokat használó fizikai közeget?",
-        "value": "rézkábel"
+        "name": "56.Melyik kifejezés írja le az IPv4 csomag fejlécében található mezőt, amely egy 0100-ra beállított 4 bites bináris értéket tartalmaz?",
+        "value": "verzió"
     },
     {
-        "name": "57. Melyik OSI fizikai réteg kifejezés írja le azt a fizikai közeget, amely a fény terjedését használja?",
-        "value": "optikai/üvegszálas kábel"
+        "name": "57.Melyik kifejezés írja le az IPv4 csomagfejlécben a következő szintű protokoll azonosítására használt mezőt?",
+        "value": "protokoll"
     },
     {
-        "name": "58. Melyik OSI fizikai réteg kifejezés írja le a mikrohullámú átvitel fizikai közegét?",
-        "value": "levegő/air"
+        "name": "58.Melyik kifejezés írja le az IPv4 csomag fejlécében található mezőt, amely egy 0100-ra beállított 4 bites bináris értéket tartalmaz?",
+        "value": "verzió"
     },
     {
-        "name": "59. Melyik két funkciót látja el az OSI adatkapcsolati réteg MAC alrétege? (Válasszon kettőt.)",
-        "value": "A fizikai adathordozón történő adatküldésért és -fogadásért felelős hálózati kártyát vezérli ◢◤ Az átviteli hibák észlelésére szolgáló utánfutót valósít meg ◢◤ Szinkronizálást biztosít a forrás- és célcsomópontok között. ◢◤ Integrálja a különböző fizikai technológiákat ◢◤ Olyan mechanizmust biztosít, amely lehetővé teszi, hogy több eszköz egy megosztott médiumon keresztül kommunikáljon."
+        "name": "59.Az ARP melyik tulajdonsága okozza, hogy a gyorsítótárazott IP-MAC hozzárendelések tovább maradnak a memóriában?",
+        "value": "Az ARP-táblában lévő bejegyzések időbélyegzővel vannak ellátva, és az időkorlát lejárta után törlődnek."
     },
     {
-        "name": "60. Melyik két funkciót látja el az OSI adatkapcsolati réteg LLC alrétege? (Válasszon kettőt.)",
-        "value": "Lehetővé teszi, hogy az IPv4 és az IPv6 ugyanazt a hálózati interfészt és médiát használja ◢◤ Olyan információt helyez el a keretben, amely azonosítja, hogy melyik hálózati réteg protokollját használja a keret."
+        "name": "60.Az ARP melyik tulajdonsága teszi lehetővé, hogy a gyakran használt szerverek MAC-címét rögzítsük az ARP-táblában?",
+        "value": "Egy statikus IP-MAC-cím bejegyzést manuálisan is be lehet írni egy ARP-táblába."
     },
     {
-        "name": "61. Melyik két funkciót látja el az OSI adatkapcsolati réteg LLC alrétege? (Válasszon kettőt.)",
-        "value": "A hálózati protokolladatokhoz 2. rétegű vezérlési információkat ad hozzá ◢◤ Olyan információt helyez el a keretben, amely azonosítja, hogy melyik hálózati réteg protokollját használja a keret."
+        "name": "61.Az ARP melyik tulajdonsága teszi lehetővé, hogy a LAN-on lévő hosztok forgalmat küldjenek távoli hálózatokba?",
+        "value": "A helyi hosztok megtudják az alapértelmezett átjáró MAC-címét."
     },
     {
-        "name": "62. Melyik két funkciót látja el az OSI adatkapcsolati réteg LLC alrétege? (Válasszon kettőt.)",
-        "value": "A hálózati protokolladatokhoz 2. rétegű vezérlési információkat ad hozzá ◢◤ Lehetővé teszi, hogy az IPv4 és az IPv6 ugyanazt a hálózati interfészt és médiát használja."
+        "name": "62.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a regisztrátori LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "192.168.235.234",
+        "image": "https://i.ibb.co/CKn8gk25/k-p.png"
     },
     {
-        "name": "63. Melyik két funkciót látja el az OSI adatkapcsolati réteg LLC alrétege? (Válasszon kettőt.)",
-        "value": "Lehetővé teszi, hogy az IPv4 és az IPv6 ugyanazt a hálózati interfészt és médiát használja ◢◤ Hozzáadja a hálózati protokolladatokhoz a 2. rétegbeli vezérlési információkat."
+        "name": "63.Az ARP melyik tulajdonsága kényszeríti az összes Ethernet hálózati kártyát az ARP-kérés feldolgozására?",
+        "value": "A cél MAC-cím FF-FF-FF-FF-FF-FF megjelenik az Ethernet-keret fejlécében."
     },
     {
-        "name": "64.Milyen művelet történik, ha egy switch FF:FF:FF:FF:FF:FF cél MAC-című keretet kap?",
-        "value": "A switch a bejövő port kivételével minden porton továbbítja."
+        "name": "64.Az ARP melyik tulajdonsága okozza, hogy csak az ARP-kérést küldő forrás kap választ?",
+        "value": "A forrás MAC-cím az Ethernet-keret fejlécében jelenik meg."
     },
     {
-        "name": "65.Milyen műveletre kerül sor, ha egy switch 01:00:5E:00:00:D9 cél MAC címmel rendelkező keretet kap?",
-        "value": "A switch a bejövő port kivételével minden porton továbbítja."
+        "name": "65.Az ARP melyik tulajdonsága okozza azt, hogy a kérés az ARP-kérést fogadó port kivételével a switch összes portjára kiáramlik?",
+        "value": "A cél MAC-cím FF-FF-FF-FF-FF-FF megjelenik az Ethernet-keret fejlécében."
     },
     {
-        "name": "66. Milyen művelet történik, ha egy állomás olyan keretet kap, amelynek cél MAC-címe FF:FF:FF:FF:FF:FF?",
-        "value": "A fogadó/host/állomás feldolgozza a keretet."
+        "name": "66.Az ARP melyik tulajdonsága okozza, hogy az ARP-kérést fogadó hálózati kártyák az Ethernet-keret adatrészét továbbítják az ARP-folyamatnak?",
+        "value": "A 0x806 típusú mező az Ethernet-keret fejlécében jelenik meg."
     },
     {
-        "name": "67. Milyen művelet történik, ha egy switch kap egy keretet, és a forrás MACcíme szerepel a MAC-táblában?",
-        "value": "A kapcsoló frissíti az adott bejegyzés időzítőjét."
+        "name": "67.Az ARP melyik tulajdonsága okozza, hogy az ARP-kérést fogadó hálózati kártyák az Ethernet-keret adatrészét továbbítják az ARP-folyamatnak?",
+        "value": "A 0x806 típusú mező az Ethernet-keret fejlécében jelenik meg."
     },
     {
-        "name": "68. Milyen művelet történik, ha egy állomás olyan keretet kap, amelynek cél MAC-címe FF:FF:FF:FF:FF:FF?",
-        "value": "A fogadó/állomás/host feldolgozza a keretet."
+        "name": "68.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a szerviz LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "172.29.157.156",
+        "image": "https://i.ibb.co/KxD9JkmG/k-p.png"
     },
     {
-        "name": "69.Milyen művelet történik, ha egy állomás olyan keretet kap, amelynek cél MAC-címét nem ismeri fel?",
-        "value": "A fogadó elveti a keretet."
+        "name": "69.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi az orvosi LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet kell az új állomáson alapértelmezett átjáróként beállítani?",
+        "value": "192.168.191.189",
+        "image": "https://i.ibb.co/ytKFQwg/k-p.png"
     },
     {
-        "name": "70.Milyen típusú UTP-kábelt használnak egy számítógép és egy switch port összekapcsolására?",
-        "value": "egyenes átjáró/straight-through"
+        "name": "70.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a regisztrátori LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "192.168.225.223",
+        "image": "https://i.ibb.co/CsnBDHP1/k-p.png"
+    },
+    {
+        "name": "71.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Manager LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "10.118.62.196"
+    },
+    {
+        "name": "72.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Store LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "172.19.98.230",
+        "image": "https://i.ibb.co/Ldz3hcB0/k-p.png"
+    },
+    {
+        "name": "73.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Store LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "172.20.132.13",
+        "image": "https://i.ibb.co/qXBQvTq/k-p.png"
+    },
+    {
+        "name": "74.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a szerviz LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
+        "value": "192.168.167.166",
+        "image": "https://i.ibb.co/HLfyg8Vp/k-p.png"
+    },
+    {
+        "name": "75.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi az orvosi LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet kell az új állomáson alapértelmezett átjáróként beállítani?",
+        "value": "192.168.201.200",
+        "image": "https://i.ibb.co/VW5qYy3K/k-p.png"
     }
 ]

@@ -7,6 +7,11 @@ fetch('https://raw.githubusercontent.com/Zan1456/qna-extension/refs/heads/main/d
 
     let currentFilter = "all";
 
+    const savedSearchTerm = localStorage.getItem("searchTerm") || "";
+    const savedFilter = localStorage.getItem("currentFilter") || "all";
+    searchInput.value = savedSearchTerm;
+    currentFilter = savedFilter;
+
     function renderResults(results) {
       resultsList.innerHTML = "";
 
@@ -74,6 +79,7 @@ fetch('https://raw.githubusercontent.com/Zan1456/qna-extension/refs/heads/main/d
         button.classList.add("active");
 
         currentFilter = button.dataset.filter;
+        localStorage.setItem("currentFilter", currentFilter);
         const query = searchInput.value.toLowerCase();
         applyFilter(query);
       });
@@ -81,10 +87,24 @@ fetch('https://raw.githubusercontent.com/Zan1456/qna-extension/refs/heads/main/d
 
     searchInput.addEventListener("input", () => {
       const query = searchInput.value.toLowerCase();
+      localStorage.setItem("searchTerm", searchInput.value);
       applyFilter(query);
     });
 
-    renderResults(data);
+    const initializeSearch = () => {
+      if (savedSearchTerm || savedFilter !== "all") {
+        applyFilter(savedSearchTerm.toLowerCase());
+        const activeButton = Array.from(filterButtons).find(btn => btn.dataset.filter === savedFilter);
+        if (activeButton) {
+          filterButtons.forEach(btn => btn.classList.remove("active"));
+          activeButton.classList.add("active");
+        }
+      } else {
+        renderResults(data);
+      }
+    };
+
+    initializeSearch();
   })
   .catch(error => console.error("Hiba a JSON betöltésekor:", error));
 
@@ -113,19 +133,14 @@ const infoToggle = document.getElementById("info-toggle");
 const isFirstUse = localStorage.getItem("firstUse") === null;
 
 if (isFirstUse) {
-  console.log("Első használat: megjelenik a modal.");
   helpModal.classList.remove("hidden");
   localStorage.setItem("firstUse", "false");
-} else {
-  console.log("Nem az első használat, modal nem jelenik meg automatikusan.");
 }
 
 closeModalButton.addEventListener("click", () => {
-  console.log("Modal bezárása.");
   helpModal.classList.add("hidden");
 });
 
 infoToggle.addEventListener("click", () => {
-  console.log("Információs gomb megnyomva, modal megjelenítése.");
   helpModal.classList.remove("hidden");
 });

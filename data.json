@@ -33,7 +33,7 @@
     },
     {
         "name": "9.Mi az OSI hálózati réteg által nyújtott két szolgáltatás? (Válasszon kettőt.)",
-        "value": "csomagok útválasztása a célállomás felé; a PDU-k kapszulázása/beágyazása a szállítási rétegről"
+        "value": "csomagok útválasztása a célállomás felé ◢◤ a PDU-k kapszulázása/beágyazása a szállítási rétegről"
     },
     {
         "name": "10.Egy termelő hálózaton belül mi a célja annak, hogy egy switchet alapértelmezett átjáró címmel konfiguráljunk?",
@@ -57,7 +57,7 @@
     },
     {
         "name": "15.Lásd a kiállítást. Párosítsa a csomagokat a cél IP-címükkel az útválasztó kilépő interfészeinek. (Nem minden célpontot használunk.)",
-        "value": "FastEthernet0/0: csomag a 172.17.6.15 célállomással; FastEthernet0/1: csomag a 172.17.14.8 célállomással; FastEthernet1/0: csomag a 172.17.12.10 célállomással; FastEthernet1/1: csomag a 172.17.10.5 célállomással; Serial0/0/0: csomag a 172.17.8.20 célállomással; kimarad: a csomagot visszadobják/eldobják",
+        "value": "FastEthernet0/0: csomag a 172.17.6.15 célállomással ◢◤ FastEthernet0/1: csomag a 172.17.14.8 célállomással ◢◤ FastEthernet1/0: csomag a 172.17.12.10 célállomással ◢◤ FastEthernet1/1: csomag a 172.17.10.5 célállomással ◢◤ Serial0/0/0: csomag a 172.17.8.20 célállomással ◢◤ kimarad: a csomagot visszadobják/eldobják",
         "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811.png"
     },
     {
@@ -82,7 +82,7 @@
     },
     {
         "name": "21.Melyik két esetben fog egy switch minden porton elárasztani egy keretet, kivéve azt a portot, amelyen a keretet fogadták? (Válasszon kettőt.)",
-        "value": "A keret célcímeként a broadcast cím szerepel.; A célcím ismeretlen a switch számára."
+        "value": "A keret célcímeként a broadcast cím szerepel. ◢◤ A célcím ismeretlen a switch számára."
     },
     {
         "name": "22.Melyik állítás írja le az ARP-kérelmek kezelését a helyi kapcsolaton?",
@@ -103,7 +103,7 @@
     },
     {
         "name": "26.Melyik két típusú IPv6-üzenetet használják az ARP helyett a címfeloldáshoz?",
-        "value": "szomszédkérés; szomszéd hirdetés"
+        "value": "szomszédkérés ◢◤ szomszéd hirdetés"
     },
     {
         "name": "27.Mi a célja az ARP spoofing/hamisítás támadásnak?",
@@ -124,7 +124,7 @@
     },
     {
         "name": "31.Párosítsa a parancsokat a megfelelő műveletekhez. (Nem minden opciót használunk.)",
-        "value": "Router(config) # hostname CL1: konfigurálja a nevet az útválasztón; Router(config-line) # password class: biztosítja a konzol biztonságát / biztonságot biztosít a konzolon; Router(config) # banner motd #: üzenetet jelenít meg az útválasztó elérésekor; kimarad: Router(config)# enable password Cisco, Router(config)# password Cisco"
+        "value": "Router(config) # hostname CL1: konfigurálja a nevet az útválasztón ◢◤ Router(config-line) # password class: biztosítja a konzol biztonságát / biztonságot biztosít a konzolon ◢◤ Router(config) # banner motd #: üzenetet jelenít meg az útválasztó elérésekor ◢◤ kimarad: Router(config)# enable password Cisco, Router(config)# password Cisco"
     },
     {
         "name": "32.Egy új hálózati rendszergazdát arra kértek, hogy adjon meg egy bannerüzenetet egy Cisco-eszközön. Mi a leggyorsabb módja annak, hogy a hálózati rendszergazda tesztelje, hogy a banner megfelelően van-e konfigurálva?",
@@ -132,19 +132,19 @@
     },
     {
         "name": "33.A hálózati rendszergazdának hozzáférésre van szüksége az útválasztók és kapcsolók helyi és távoli kezeléséhez. Párosítsa a leírást a hozzáférési módszerrel. (Nem minden lehetőség használatos.)",
-        "value": "SSH: titkosítást használó távoli hozzáférési módszer; console: előnyben részesített sávon kívüli hozzáférési módszer; FTP: kimarad; AUX: távoli hozzáférés betárcsázós kapcsolaton keresztül; Telnet: nem biztonságos távoli hozzáférés"
+        "value": "SSH: titkosítást használó távoli hozzáférési módszer ◢◤ console: előnyben részesített sávon kívüli hozzáférési módszer ◢◤ FTP: kimarad ◢◤ AUX: távoli hozzáférés betárcsázós kapcsolaton keresztül ◢◤ Telnet: nem biztonságos távoli hozzáférés"
     },
     {
         "name": "34.Párosítsa a fázisokat a Cisco útválasztó rendszerindítás során végzett funkciókhoz. (Nem minden lehetőség használatos.)",
-        "value": "a Cisco IOS szoftver megkeresése és betöltése: 2.fázis/lépés; belép a beállítási üzemmódba: kimarad; keresse meg és töltse be az indítási konfigurációs fájlt: 3. fázis/lépés; elvégzi a POST-ot és betölti a bootstrap programot: 1. fázis/lépés"
+        "value": "a Cisco IOS szoftver megkeresése és betöltése: 2.fázis/lépés ◢◤ belép a beállítási üzemmódba: kimarad ◢◤ keresse meg és töltse be az indítási konfigurációs fájlt: 3. fázis/lépés ◢◤ elvégzi a POST-ot és betölti a bootstrap programot: 1. fázis/lépés"
     },
     {
         "name": "35.Párosítsa a parancsot azzal az eszköz üzemmóddal, amelyben a parancsot beadta. (Nem minden opciót használunk.)",
-        "value": "R1(config)#: service password-encryption; R1>: enable; R1(config-router)#: kimarad; R1#: copy running-config startup-config; R1(config-line)#: login; R1(config-if)#: ip address 192.168.4.4 255.255.255.0"
+        "value": "R1(config)#: service password-encryption ◢◤ R1>: enable ◢◤ R1(config-router)#: kimarad ◢◤ R1#: copy running-config startup-config ◢◤ R1(config-line)#: login ◢◤ R1(config-if)#: ip address 192.168.4.4 255.255.255.0"
     },
     {
         "name": "36.Mi az NVRAM két funkciója? (Válasszon kettőt.)",
-        "value": "a tartalom megtartása a tápellátás megszüntetése esetén; az indítási konfigurációs fájl tárolása"
+        "value": "a tartalom megtartása a tápellátás megszüntetése esetén ◢◤ az indítási konfigurációs fájl tárolása"
     },
     {
         "name": "37.Az útválasztó elindul és beállítási módba lép. Mi az oka ennek?",
@@ -165,11 +165,11 @@
     },
     {
         "name": "41.Párosítsa a konfigurációs módot az abban a módban elérhető paranccsal. (Nem minden opciót használunk.)",
-        "value": "enable: R1>; copy running-config startup-config: R1#; login: R1(config-line)#; interface fastEthernet0/0: R1(config)#; kimarad: R1(config-router)#"
+        "value": "enable: R1> ◢◤ copy running-config startup-config: R1# ◢◤ login: R1(config-line)# ◢◤ interface fastEthernet0/0: R1(config)# ◢◤ kimarad: R1(config-router)#"
     },
     {
         "name": "42.Melyik három parancsot használjuk az útválasztó biztonságos elérésének beállítására a konzolinterfészhez való csatlakozáson keresztül? (Válasszon hármat.)",
-        "value": "line console 0; login; password cisco"
+        "value": "line console 0 ◢◤ login ◢◤ password cisco"
     },
     {
         "name": "43.Lásd a kiállítást. Tekintsük a PC1-en látható IP-címkonfigurációt. Mi a leírása az alapértelmezett átjáró címének?",
@@ -178,7 +178,7 @@
     },
     {
         "name": "44.Melyik két funkció az útválasztó elsődleges funkciója? (Válasszon kettőt.)",
-        "value": "csomagtovábbítás/csomgaküldés; útvonal kiválasztása"
+        "value": "csomagtovábbítás/csomgaküldés ◢◤ útvonal kiválasztása"
     },
     {
         "name": "45.Milyen hatása van a Router# copy running-config startup-config parancs használatának egy útválasztón?",
@@ -190,11 +190,11 @@
     },
     {
         "name": "47.Mi az a két lehetséges hálózati probléma, amely az ARP működéséből adódhat? (Válasszon kettőt.)",
-        "value": "Az alacsony sávszélességű, nagy hálózatokon a többszörös ARP- közvetítések késedelmet okozhatnak az adatátvitelben.; A hálózati támadók manipulálhatják az ARP-üzenetekben szereplő MAC-cím és IP-cím hozzárendeléseket azzal a céllal, hogy a hálózati forgalmat lehallgassák."
+        "value": "Az alacsony sávszélességű, nagy hálózatokon a többszörös ARP- közvetítések késedelmet okozhatnak az adatátvitelben. ◢◤ A hálózati támadók manipulálhatják az ARP-üzenetekben szereplő MAC-cím és IP-cím hozzárendeléseket azzal a céllal, hogy a hálózati forgalmat lehallgassák."
     },
     {
         "name": "48.Nyissa meg a PT tevékenységet. Végezze el a tevékenység utasításában szereplő feladatokat, majd válaszoljon a kérdésre.",
-        "value": "R1: G0/0 and S0/0/0; R2: G0/1 and S0/0/0",
+        "value": "R1: G0/0 and S0/0/0 ◢◤ R2: G0/1 and S0/0/0",
         "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam.jpg"
     },
     {

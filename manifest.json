@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Teszt kereső",
-  "version": "1.3",
+  "version": "1.3.1",
   "description": "Egy böngésző bővítmény a teszt kérdéseinek keresésére.",
   "action": {
     "default_popup": "popup.html"

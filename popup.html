@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -8,47 +7,57 @@
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <div id="app">
-    <div class="header">
+  <div id="app" class="container">
+    <header class="header">
       <h1>Teszt kereső</h1>
       <div class="icons">
-        <button id="theme-toggle">🌙</button>
-        <button id="info-toggle" title="Segítség">ℹ️</button>
+        <button id="theme-toggle" class="icon-btn" title="Téma váltás">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="info-toggle" class="icon-btn" title="Segítség">
+          <i class="fas fa-info-circle"></i>
+        </button>
       </div>
-    </div>
-    <div class="search-container">
-      <input type="text" id="search" placeholder="Keresés...">
-    </div>
-    <div class="filter-container">
-      <button id="filter-all" class="filter-btn active" data-filter="all" title="Összes">
-        🔍
-      </button>
-      <button id="filter-questions" class="filter-btn" data-filter="questions" title="Csak kérdések">
-        ❓
-      </button>
-      <button id="filter-answers" class="filter-btn" data-filter="answers" title="Csak válaszok">
-        💬
-      </button>
-      <button id="filter-with-images" class="filter-btn" data-filter="with-images" title="Csak képes elemek">
-        🖼️
-      </button>
-    </div>  
+    </header>
+
+    <section class="search-filter-wrapper">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Keresés...">
+      </div>
+      <div class="filter-container">
+        <button id="filter-all" class="filter-btn active" data-filter="all" title="Összes">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="filter-questions" class="filter-btn" data-filter="questions" title="Csak kérdések">
+          <i class="fas fa-question-circle"></i>
+        </button>
+        <button id="filter-answers" class="filter-btn" data-filter="answers" title="Csak válaszok">
+          <i class="fas fa-comment-dots"></i>
+        </button>
+        <button id="filter-with-images" class="filter-btn" data-filter="with-images" title="Csak képes elemek">
+          <i class="fas fa-images"></i>
+        </button>
+      </div>
+    </section>
+    
     <ul id="results"></ul>
   </div>
 
   <div id="help-modal" class="modal hidden">
     <div class="modal-content">
       <h2>Üdv Puskás puskázó!</h2>
-      <p>Ezzel a bővítménnyel egyszerűen kereshetsz a kérdések és a válaszok között. Íme néhány tipp:</p>
+      <p>Egyszerű keresés a kérdések és válaszok között. Tippek:</p>
       <ul>
-        <li>Képek: A képre való kattintás új ablakban fogja megnyitni.</li>
-        <li>Sötét mód: A 🌙 gombbal válthatsz a sötét és világos mód között.</li>
-        <li>Beillesztés: Használd a 📋 gombot a vágólap tartalmának beillesztéséhez.</li>
+        <li>🖼️ Kattints a képekre a nagyításhoz.</li>
+        <li>🌙 Téma váltás világos és sötét mód között.</li>
+        <li>📋 Használd a vágólapot a beillesztéshez.</li>
       </ul>
-      <button id="close-modal">Bezárás</button>
-      <h5>Verzió: 1.3</h5>
+      <button id="close-modal" class="btn">Bezárás</button>
+      <h5>Verzió: 2.0</h5>
     </div>
   </div>
+  
   <script src="popup.js"></script>
+  <script src="fontawesome.js"></script>
 </body>
 </html>

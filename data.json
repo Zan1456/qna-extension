@@ -1,317 +1,300 @@
 [
     {
-        "name": "1.Milyen információt használnak az útválasztók az adatcsomagok továbbításához a célállomás felé?",
-        "value": "cél IP-cím"
+        "name": "1. Which two traffic types use the Real-Time Transport Protocol (RTP)? (Choose two.)",
+        "value": "video, voice"
     },
     {
-        "name": "2.Egy számítógépnek csomagot kell küldenie egy célállomásnak ugyanabban a LAN-ban. Hogyan fogjuk elküldeni a csomagot?",
-        "value": "A csomagot közvetlenül a célállomáshoz küldi."
+        "name": "2. Which wireless technology has low-power and data rate requirements making it popular in home automation applications?",
+        "value": "ZigBee"
     },
     {
-        "name": "3.Az útválasztó csomagot kap a Gigabit 0/0 interfészről, és megállapítja, hogy a csomagot a Gigabit 0/1 interfészen kell továbbítani. Mit fog ezután tenni az útválasztó?",
-        "value": "Új 2. rétegbeli Ethernet-keret létrehozása, amelyet a célállomásra kell küldeni"
+        "name": "3. Which layer of the TCP/IP model provides a route to forward messages through an internetwork?",
+        "value": "internet"
     },
     {
-        "name": "4.Melyik IPv4-címet használhatja egy állomás a loopback interfész pingelésére?",
-        "value": "127.0.0.1"
+        "name": "4. Which type of server relies on record types such as A, NS, AAAA, and MX in order to provide services?",
+        "value": "DNS"
     },
     {
-        "name": "5.Egy számítógép hozzáférhet az ugyanazon a hálózaton lévő eszközökhöz, de nem férhet hozzá más hálózatokon lévő eszközökhöz. Mi lehet a probléma valószínű oka?",
-        "value": "A számítógép alapértelmezett átjárójának címe érvénytelen."
+        "name": "5. What are proprietary protocols?",
+        "value": "protocols developed by organizations who have control over their definition and operation"
     },
     {
-        "name": "6.Melyik állítás írja le az IP protokoll egyik jellemzőjét?",
-        "value": "Az IP a felső réteg szolgáltatásaira támaszkodik a hiányzó vagy rendezetlen csomagok kezelésében."
+        "name": "6. What service is provided by DNS?",
+        "value": "Resolves domain names, such as cisco.com, into IP addresses."
     },
     {
-        "name": "7.Miért nincs szükség NAT-ra az IPv6 esetében?",
-        "value": "Bármely állomás vagy felhasználó kaphat nyilvános IPv6 hálózati címet, mivel a rendelkezésre álló IPv6-címek száma rendkívül nagy."
+        "name": "7. A client packet is received by a server. The packet has a destination port number of 110. What service is the client requesting?",
+        "value": "POP3"
     },
     {
-        "name": "8.Melyik paramétert használja az útválasztó a célállomáshoz vezető útvonal kiválasztásához, ha több útvonal is rendelkezésre áll?",
-        "value": "Az alacsonyabb metrikus értéket, amely a célhálózathoz tartozik."
+        "name": "8. What command can be used on a Windows PC to see the IP configuration of that computer?",
+        "value": "ipconfig"
     },
     {
-        "name": "9.Mi az OSI hálózati réteg által nyújtott két szolgáltatás? (Válasszon kettőt.)",
-        "value": "csomagok útválasztása a célállomás felé ◢◤ a PDU-k kapszulázása/beágyazása a szállítási rétegről"
+        "name": "9. A wired laser printer is attached to a home computer. That printer has been shared so that other computers on the home network can also use the printer. What networking model is in use?",
+        "value": "peer-to-peer (P2P)"
     },
     {
-        "name": "10.Egy termelő hálózaton belül mi a célja annak, hogy egy switchet alapértelmezett átjáró címmel konfiguráljunk?",
-        "value": "Az alapértelmezett átjáró címét a kapcsolóból származó csomagok távoli hálózatok felé történő továbbítására használják."
+        "name": "10. What characteristic describes a virus?",
+        "value": "malicious software or code running on an end device"
     },
     {
-        "name": "11.Mi az IP protokoll egyik alapvető jellemzője?",
-        "value": "kapcsolat nélküli/kapcsolat mentes"
+        "name": "11. Three bank employees are using the corporate network. The first employee uses a web browser to view a company web page in order to read some announcements. The second employee accesses the corporate database to perform some financial transactions. The third employee participates in an important live audio conference with other corporate managers in branch offices. If QoS is implemented on this network, what will be the priorities from highest to lowest of the different data types?",
+        "value": "audio conference, financial transactions, web page"
     },
     {
-        "name": "12.Az IPv4 fejléc melyik mezőjét használják arra, hogy megakadályozzák, hogy egy csomag a végtelenségig haladjon a hálózaton?",
-        "value": "Time-to-Live (Életben tartási idő) /Élettartam"
+        "name": "12. Match the description to the IPv6 addressing component. (Not all options are used.)",
+        "value": "This network portion of the address is assigned by the provider: global routing; This part of the address is used by an organization to identify subnets: subnet ID; This part of the address is the equivalent to the host portion of an IPv4 address: interface ID",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/2020-03-26_171754.png"
     },
     {
-        "name": "13.Mi az egyik előnye az IPv6 egyszerűsített fejlécének az IPv4-gyel szemben?",
-        "value": "hatékony csomagkezelés/csomagfeldolgozás"
+        "name": "13. Refer to the exhibit. If Host1 were to transfer a file to the server, what layers of the TCP/IP model would be used?",
+        "value": "application, transport, Internet, and network access layers",
+        "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i275370v1n1_275370-2.png"
     },
     {
-        "name": "14.Melyik IPv4 fejlécmező azonosítja a csomagban szállított felső rétegbeli protokollt?",
-        "value": "protokoll"
+        "name": "14. Match the characteristic to the forwarding method. (Not all options are used.)",
+        "value": "Cut-through: low latency, may forward runt frames, begins forwarding when the destination address is received; Store-and-forward: always stores the entire frame, checks the CRC before forwarding, checks the frame length before forwarding"
     },
     {
-        "name": "15.Lásd a kiállítást. Párosítsa a csomagokat a cél IP-címükkel az útválasztó kilépő interfészeinek. (Nem minden célpontot használunk.)",
-        "value": "FastEthernet0/0: csomag a 172.17.6.15 célállomással ◢◤ FastEthernet0/1: csomag a 172.17.14.8 célállomással ◢◤ FastEthernet1/0: csomag a 172.17.12.10 célállomással ◢◤ FastEthernet1/1: csomag a 172.17.10.5 célállomással ◢◤ Serial0/0/0: csomag a 172.17.8.20 célállomással ◢◤ kimarad: a csomagot visszadobják/eldobják",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811.png"
+        "name": "15. Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
+        "value": "R1: G0/0",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/35.jpg"
     },
     {
-        "name": "16.Milyen információt szolgáltat a loopback teszt?",
-        "value": "Az eszköz TCP/IP stackje megfelelően működik."
+        "name": "16. What service is provided by Internet Messenger?",
+        "value": "An application that allows real-time chatting among remote users."
     },
     {
-        "name": "17.Melyik útválasztási tábla bejegyzése rendelkezik a célhálózathoz tartozó következő ugrás címmel?",
-        "value": "távoli útvonalak/utak"
+        "name": "17. A network administrator is adding a new LAN to a branch office. The new LAN must support 30 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+        "value": "A: 192.168.0.128 /25, B: 192.168.0.0 /26, C: 192.168.0.96 /27, D: 192.168.0.80/30",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i304956v6n1_207918.png"
     },
     {
-        "name": "18.Hogyan biztosítják a hosztok, hogy csomagjaikat a megfelelő hálózati célállomásra irányítsák?",
-        "value": "Saját helyi útválasztási táblázatot kell vezetniük, amely tartalmaz egy útvonalat a loopback interfészhez, egy helyi hálózati útvonalat és egy távoli alapértelmezett útvonalat."
+        "name": "18. Refer to the exhibit. Which protocol was responsible for building the table that is shown?",
+        "value": "ARP"
     },
     {
-        "name": "19.A valós idejű alkalmazások, például a streaming audio és videó adatainak továbbítása során az IPv6 fejléc melyik mezője használható arra, hogy tájékoztassa az útválasztókat és a kapcsolókat, hogy az azonos beszélgetésben lévő csomagok számára ugyanazt az útvonalat tartsák fenn?",
-        "value": "folyamcímke/áramlási címke"
+        "name": "19. A network administrator notices that some newly installed Ethernet cabling is carrying corrupt and distorted data signals. The new cabling was installed in the ceiling close to fluorescent lights and electrical equipment. Which two factors may interfere with the copper cabling and result in signal distortion and data corruption? (Choose two.)",
+        "value": "RFI​, EMI"
     },
     {
-        "name": "20.Melyik állítás írja le a címfeloldó protokoll működését?",
-        "value": "Az ARP a helyi hálózaton lévő bármely állomás MAC-címének felderítésére szolgál."
+        "name": "20. A host is trying to send a packet to a device on a remote LAN segment, but there are currently no mappings in its ARP cache. How will the device obtain a destination MAC address?",
+        "value": "(A host is trying to send a packet to a device on a remote LAN segment, but there are currently no mappings in the ARP cache. How will the device obtain a destination MAC address?)"
     },
     {
-        "name": "21.Melyik két esetben fog egy switch minden porton elárasztani egy keretet, kivéve azt a portot, amelyen a keretet fogadták? (Válasszon kettőt.)",
-        "value": "A keret célcímeként a broadcast cím szerepel. ◢◤ A célcím ismeretlen a switch számára."
+        "name": "21. A client packet is received by a server. The packet has a destination port number of 53. What service is the client requesting?",
+        "value": "DNS"
     },
     {
-        "name": "22.Melyik állítás írja le az ARP-kérelmek kezelését a helyi kapcsolaton?",
-        "value": "Ezeket a helyi hálózat minden eszköze fogadja és feldolgozza."
+        "name": "22. A network administrator is adding a new LAN to a branch office. The new LAN must support 25 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+        "value": "255.255.255.224"
     },
     {
-        "name": "23.Milyen célcímet használnak egy ARP-kérelmi keretben?",
-        "value": "FFFF.FFFF.FFFF"
+        "name": "23. What characteristic describes a Trojan horse?",
+        "value": "malicious software or code running on an end device"
     },
     {
-        "name": "24.Egy hálózati technikus kiadja az arp -d * parancsot egy számítógépen, miután a LAN-hoz csatlakoztatott útválasztót átkonfigurálták. Mi az eredmény a parancs kiadása után?",
-        "value": "Az ARP gyorsítótár/cache törlődik."
+        "name": "24. What service is provided by HTTPS?",
+        "value": "Uses encryption to secure the exchange of text, graphic images, sound, and video on the web."
     },
     {
-        "name": "25.Lásd a kiállítást. A képen egy kis kapcsolt hálózat és a kapcsoló MAC- címtáblájának tartalma látható. PC1 egy keretet küldött PC3-nak címezve. Mit fog a switch csinálni a kerettel?",
-        "value": "A kapcsoló a 4. port kivételével az összes portra továbbítja a keretet.",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i275394v1n1_207267.png"
+        "name": "25. A technician with a PC is using multiple applications while connected to the Internet. How is the PC able to keep track of the data flow between multiple application sessions and have each application receive the correct packet flows?",
+        "value": "The data flow is being tracked based on the source port number that is used by each application."
     },
     {
-        "name": "26.Melyik két típusú IPv6-üzenetet használják az ARP helyett a címfeloldáshoz?",
-        "value": "szomszédkérés ◢◤ szomszéd hirdetés"
+        "name": "26. A network administrator is adding a new LAN to a branch office. The new LAN must support 61 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+        "value": "255.255.255.192"
     },
     {
-        "name": "27.Mi a célja az ARP spoofing/hamisítás támadásnak?",
-        "value": "IP-címek hozzárendelése/társítása a rossz MAC-címhez"
+        "name": "27. Refer to the exhibit. Match the network with the correct IP address and prefix that will satisfy the usable host addressing requirements for each network. (Not all options are used.)",
+        "value": "A: 192.168.0.0 /25, B: 192.168.0.128 /26, C: 192.168.0.192 /27, D: 192.168.0.224 /30",
+        "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i207918v1n1_207918-1-1.jpg"
     },
     {
-        "name": "28.Lásd a kiállítást. A PC1 megpróbál csatlakozni a File_server1-hez, és ARP- kérést küld a cél MAC-címének megadására. Melyik MAC-címet kapja meg a PC1 az ARP-válaszban?",
-        "value": "az R1 G0/0 interfészének MAC-címe / a G0/0 interfész MAC-címe az R1-en",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-11_210907.jpg"
+        "name": "28. What characteristic describes a DoS attack?",
+        "value": "an attack that slows or crashes a device or network service"
     },
     {
-        "name": "29.Hol tartják fenn az IPv4-címek 2. rétegbeli Ethernet-címekhez való hozzárendelését az állomásszámítógépen?",
-        "value": "ARP cache/ gyorsítótár"
+        "name": "29. Match the application protocols to the correct transport protocols.",
+        "value": "TCP: FTP, HTTP, SMTP; UDP: DHCP, TFTP"
     },
     {
-        "name": "30.Milyen fontos információt vizsgál meg az Ethernet-keret fejlécében egy 2. rétegbeli eszköz az adatok továbbítása érdekében?",
-        "value": "cél MAC-cím"
+        "name": "30. What service is provided by SMTP?",
+        "value": "Allows clients to send email to a mail server and the servers to send email to other servers."
     },
     {
-        "name": "31.Párosítsa a parancsokat a megfelelő műveletekhez. (Nem minden opciót használunk.)",
-        "value": "Router(config) # hostname CL1: konfigurálja a nevet az útválasztón ◢◤ Router(config-line) # password class: biztosítja a konzol biztonságát / biztonságot biztosít a konzolon ◢◤ Router(config) # banner motd #: üzenetet jelenít meg az útválasztó elérésekor ◢◤ kimarad: Router(config)# enable password Cisco, Router(config)# password Cisco"
+        "name": "31. Which scenario describes a function provided by the transport layer?",
+        "value": "A student has two web browser windows open in order to access two web sites. The transport layer ensures the correct web page is delivered to the correct browser window."
     },
     {
-        "name": "32.Egy új hálózati rendszergazdát arra kértek, hogy adjon meg egy bannerüzenetet egy Cisco-eszközön. Mi a leggyorsabb módja annak, hogy a hálózati rendszergazda tesztelje, hogy a banner megfelelően van-e konfigurálva?",
-        "value": "Lépjen ki a privilegizált EXEC üzemmódból, és nyomja meg az Enter billentyűt."
+        "name": "32. Refer to the exhibit. Host B on subnet Teachers transmits a packet to host D on subnet Students. Which Layer 2 and Layer 3 addresses are contained in the PDUs that are transmitted from host B to the router?",
+        "value": "Layer 2 d = 00-00-0c-94-36-ab, s = 00-00-0c-94-36-bb; Layer 3 d = 172.16.20.200, s = 172.16.10.200",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/2020-03-26_171754.png"
     },
     {
-        "name": "33.A hálózati rendszergazdának hozzáférésre van szüksége az útválasztók és kapcsolók helyi és távoli kezeléséhez. Párosítsa a leírást a hozzáférési módszerrel. (Nem minden lehetőség használatos.)",
-        "value": "SSH: titkosítást használó távoli hozzáférési módszer ◢◤ console: előnyben részesített sávon kívüli hozzáférési módszer ◢◤ FTP: kimarad ◢◤ AUX: távoli hozzáférés betárcsázós kapcsolaton keresztül ◢◤ Telnet: nem biztonságos távoli hozzáférés"
+        "name": "33. What does the term “attenuation” mean in data communication?",
+        "value": "loss of signal strength as distance increases"
     },
     {
-        "name": "34.Párosítsa a fázisokat a Cisco útválasztó rendszerindítás során végzett funkciókhoz. (Nem minden lehetőség használatos.)",
-        "value": "a Cisco IOS szoftver megkeresése és betöltése: 2.fázis/lépés ◢◤ belép a beállítási üzemmódba: kimarad ◢◤ keresse meg és töltse be az indítási konfigurációs fájlt: 3. fázis/lépés ◢◤ elvégzi a POST-ot és betölti a bootstrap programot: 1. fázis/lépés"
+        "name": "34. Refer to the exhibit. An administrator is trying to configure the switch but receives the error message that is displayed in the exhibit. What is the problem?",
+        "value": "The administrator must first enter privileged EXEC mode before issuing the command",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i208399v1n1_Question-1.png"
     },
     {
-        "name": "35.Párosítsa a parancsot azzal az eszköz üzemmóddal, amelyben a parancsot beadta. (Nem minden opciót használunk.)",
-        "value": "R1(config)#: service password-encryption ◢◤ R1>: enable ◢◤ R1(config-router)#: kimarad ◢◤ R1#: copy running-config startup-config ◢◤ R1(config-line)#: login ◢◤ R1(config-if)#: ip address 192.168.4.4 255.255.255.0"
+        "name": "35. Which two protocols operate at the top layer of the TCP/IP protocol suite? (Choose two.)",
+        "value": "POP, DNS"
     },
     {
-        "name": "36.Mi az NVRAM két funkciója? (Válasszon kettőt.)",
-        "value": "a tartalom megtartása a tápellátás megszüntetése esetén ◢◤ az indítási konfigurációs fájl tárolása"
+        "name": "36. A company has a file server that shares a folder named Public. The network security policy specifies that the Public folder is assigned Read-Only rights to anyone who can log into the server while the Edit rights are assigned only to the network admin group. Which component is addressed in the AAA network service framework?",
+        "value": "authorization"
     },
     {
-        "name": "37.Az útválasztó elindul és beállítási módba lép. Mi az oka ennek?",
-        "value": "A konfigurációs fájl hiányzik az NVRAM-ból."
+        "name": "37. What three requirements are defined by the protocols used in network communcations to allow message transmission across a network? (Choose three.)",
+        "value": "message size, message encoding, delivery options"
     },
     {
-        "name": "38.Az ip default-gateway 172.16.100.1 globális konfigurációs parancsot alkalmazza egy kapcsolóra. Milyen hatása van ennek a parancsnak?",
-        "value": "A kapcsoló távolról is kezelhető egy másik hálózaton lévő állomásról."
+        "name": "38. What are two characteristics of IP? (Choose two.)",
+        "value": "does not require a dedicated end-to-end connection, operates independently of the network media"
     },
     {
-        "name": "39.Mi történik, ha a transport input ssh parancsot a switch vty vonalakon adjuk meg?",
-        "value": "A kapcsoló és a távoli felhasználók közötti kommunikáció titkosított."
+        "name": "39. An employee of a large corporation remotely logs into the company using the appropriate username and password. The employee is attending an important video conference with a customer concerning a large sale. It is important for the video quality to be excellent during the meeting. The employee is unaware that after a successful login, the connection to the company ISP failed. The secondary connection, however, activated within seconds. The disruption was not noticed by the employee or other employees. What three network characteristics are described in this scenario? (Choose three.)",
+        "value": "security, quality of service, fault tolerance"
     },
     {
-        "name": "40.Lásd a kiállítást. Egy felhasználói PC sikeresen továbbított csomagokat a www.cisco.com címre. Melyik IP-címet célozza meg a felhasználói PC, hogy továbbítsa az adatokat a helyi hálózatról?",
-        "value": "172.20.0.254",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i207589v1n1_207589.png"
+        "name": "40. What are two common causes of signal degradation when using UTP cabling? (Choose two.)",
+        "value": "improper termination, low-quality cable or connectors"
     },
     {
-        "name": "41.Párosítsa a konfigurációs módot az abban a módban elérhető paranccsal. (Nem minden opciót használunk.)",
-        "value": "enable: R1> ◢◤ copy running-config startup-config: R1# ◢◤ login: R1(config-line)# ◢◤ interface fastEthernet0/0: R1(config)# ◢◤ kimarad: R1(config-router)#"
+        "name": "41. Which subnet would include the address 192.168.1.96 as a usable host address?",
+        "value": "192.168.1.64/26"
     },
     {
-        "name": "42.Melyik három parancsot használjuk az útválasztó biztonságos elérésének beállítására a konzolinterfészhez való csatlakozáson keresztül? (Válasszon hármat.)",
-        "value": "line console 0 ◢◤ login ◢◤ password cisco"
+        "name": "42. Refer to the exhibit. On the basis of the output, which two statements about network connectivity are correct? (Choose two.)",
+        "value": "There are 4 hops between this device and the device at 192.168.100.1.; There is connectivity between this device and the device at 192.168.100.1.",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i275429v1n1_chapter-9-WAN-images2.jpg"
     },
     {
-        "name": "43.Lásd a kiállítást. Tekintsük a PC1-en látható IP-címkonfigurációt. Mi a leírása az alapértelmezett átjáró címének?",
-        "value": "Ez a Router1 interfész IP-címe, amely a PC1 LAN-t a Router1-hez köti.",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/i206397v1n2_206397.png"
+        "name": "43. Which two statements describe how to assess traffic flow patterns and network traffic types using a protocol analyzer? (Choose two.)",
+        "value": "Capture traffic during peak utilization times to get a good representation of the different traffic types; Perform the capture on different network segments"
     },
     {
-        "name": "44.Melyik két funkció az útválasztó elsődleges funkciója? (Válasszon kettőt.)",
-        "value": "csomagtovábbítás/csomgaküldés ◢◤ útvonal kiválasztása"
+        "name": "44. What is the consequence of configuring a router with the ipv6 unicast-routing global configuration command?​",
+        "value": "The IPv6 enabled router interfaces begin sending ICMPv6 Router Advertisement messages."
     },
     {
-        "name": "45.Milyen hatása van a Router# copy running-config startup-config parancs használatának egy útválasztón?",
-        "value": "Az NVRAM tartalma megváltozik."
+        "name": "45. WWhich three layers of the OSI model map to the application layer of the TCP/IP model? (Choose three.)",
+        "value": "application, session, presentation"
     },
     {
-        "name": "46.Mi történik, ha egy állomáson helytelenül van beállítva az alapértelmezett átjáró címe?",
-        "value": "Az állomás nem tud kommunikálni más hálózatokban lévő állomással."
+        "name": "46. Refer to the exhibit. If PC1 is sending a packet to PC2 and routing has been configured between the two routers, what will R1 do with the Ethernet frame header attached by PC1?",
+        "value": "remove the Ethernet header and configure a new Layer 2 header before sending it out S0/0/0",
+        "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i271152v1n1_271152.png"
     },
     {
-        "name": "47.Mi az a két lehetséges hálózati probléma, amely az ARP működéséből adódhat? (Válasszon kettőt.)",
-        "value": "Az alacsony sávszélességű, nagy hálózatokon a többszörös ARP- közvetítések késedelmet okozhatnak az adatátvitelben. ◢◤ A hálózati támadók manipulálhatják az ARP-üzenetekben szereplő MAC-cím és IP-cím hozzárendeléseket azzal a céllal, hogy a hálózati forgalmat lehallgassák."
+        "name": "47. What will happen if the default gateway address is incorrectly configured on a host?",
+        "value": "The host cannot communicate with other hosts in the local network."
     },
     {
-        "name": "48.Nyissa meg a PT tevékenységet. Végezze el a tevékenység utasításában szereplő feladatokat, majd válaszoljon a kérdésre.",
-        "value": "R1: G0/0 and S0/0/0 ◢◤ R2: G0/1 and S0/0/0",
-        "image": "https://itexamanswers.net/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam.jpg"
+        "name": "48. What are two features of ARP? (Choose two.)",
+        "value": "If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast; If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply"
     },
     {
-        "name": "49.Melyik kifejezés írja le az IPv4 csomagfejlécben a következő szintű protokoll azonosítására használt mezőt?",
-        "value": "protokoll"
+        "name": "49. A network administrator is adding a new LAN to a branch office. The new LAN must support 90 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+        "value": "255.255.255.128"
     },
     {
-        "name": "50.Melyik kifejezés írja le az IPv4 csomagfejlécben található mezőt, amely egy 8 bites bináris értéket tartalmaz, és az egyes csomagok prioritásának meghatározására szolgál?",
-        "value": "megkülönböztetett/differenciált szolgáltatások"
+        "name": "50. What are two ICMPv6 messages that are not present in ICMP for IPv4? (Choose two.)",
+        "value": "Neighbor Solicitation, Router Advertisement"
     },
     {
-        "name": "51.Melyik kifejezés írja le az IPv4 csomagfejléc azon mezőjét, amely egy 32 bites bináris értéket tartalmaz, amely a küldő eszköz egy interfészéhez kapcsolódik?",
-        "value": "forrás IPv4 cím"
+        "name": "51. A client packet is received by a server. The packet has a destination port number of 80. What service is the client requesting?",
+        "value": "HTTP"
     },
     {
-        "name": "52.Melyik kifejezés írja le az IPv4-csomag fejlécében található mezőt, amelyet az IPv4-fejléc sérülésének észlelésére használnak?",
-        "value": "fejléc ellenőrző összege"
+        "name": "52. What is an advantage for small organizations of adopting IMAP instead of POP?",
+        "value": "Messages are kept in the mail servers until they are manually deleted from the email client."
     },
     {
-        "name": "53.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását tervezi a bérszámfejtési LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "10.27.14.148",
-        "image": "https://i.ibb.co/mCnC2pgB/k-p.png"
+        "name": "53. A technician can ping the IP address of the web server of a remote company but cannot successfully ping the URL address of the same web server. Which software utility can the technician use to diagnose the problem?",
+        "value": "nslookup"
     },
     {
-        "name": "54.Melyik kifejezés írja le az IPv4 csomagfejléc azon mezőjét, amely unicast, multicast vagy broadcast címet tartalmaz?",
-        "value": "cél IPv4-cím"
+        "name": "54. Which two functions are performed at the LLC sublayer of the OSI Data Link Layer to facilitate Ethernet communication? (Choose two.)?",
+        "value": "enables IPv4 and IPv6 to utilize the same physical medium; places information in the Ethernet frame that identifies which network layer protocol is being encapsulated by the frame; handles communication between upper layer networking software and Ethernet NIC hardware; adds Ethernet control information to network protocol data"
     },
     {
-        "name": "55.Melyik kifejezés írja le az IPv4 csomagfejlécben található mezőt, amelyet a csomag élettartamának korlátozására használnak?",
-        "value": "TTL (Time-to-Live)"
+        "name": "55. The global configuration command ip default-gateway 172.16.100.1 is applied to a switch. What is the effect of this command?",
+        "value": "The switch can communicate with other hosts on the 172.16.100.0 network."
     },
     {
-        "name": "56.Melyik kifejezés írja le az IPv4 csomag fejlécében található mezőt, amely egy 0100-ra beállított 4 bites bináris értéket tartalmaz?",
-        "value": "verzió"
+        "name": "56. What happens when the transport input ssh command is entered on the switch vty lines?",
+        "value": "The switch can be remotely managed from a host on another network."
     },
     {
-        "name": "57.Melyik kifejezés írja le az IPv4 csomagfejlécben a következő szintű protokoll azonosítására használt mezőt?",
-        "value": "protokoll"
+        "name": "57. Match the type of threat with the cause. (Not all options are used.)",
+        "value": "electrical threats: voltage spikes, insufficient supply voltage (brownouts), unconditioned power (noise), and total power loss; hardware threats: physical damage to servers, routers, switches, cabling plant, and workstations; environmental threats: temperature extremes (too hot or too cold) or humidity extremes (too wet or too dry; maintenance threats: poor handling of key electrical components (electrostatic discharge), lack of critical spare parts, poor cabling, and poor labeling"
     },
     {
-        "name": "58.Melyik kifejezés írja le az IPv4 csomag fejlécében található mezőt, amely egy 0100-ra beállított 4 bites bináris értéket tartalmaz?",
-        "value": "verzió"
+        "name": "58. A disgruntled employee is using some free wireless networking tools to determine information about the enterprise wireless networks. This person is planning on using this information to hack the wireless network. What type of attack is this?",
+        "value": "reconnaissance"
     },
     {
-        "name": "59.Az ARP melyik tulajdonsága okozza, hogy a gyorsítótárazott IP-MAC hozzárendelések tovább maradnak a memóriában?",
-        "value": "Az ARP-táblában lévő bejegyzések időbélyegzővel vannak ellátva, és az időkorlát lejárta után törlődnek."
+        "name": "59. What service is provided by HTTP?",
+        "value": "A basic set of rules for exchanging text, graphic images, sound, video, and other multimedia files on the web."
     },
     {
-        "name": "60.Az ARP melyik tulajdonsága teszi lehetővé, hogy a gyakran használt szerverek MAC-címét rögzítsük az ARP-táblában?",
-        "value": "Egy statikus IP-MAC-cím bejegyzést manuálisan is be lehet írni egy ARP-táblába."
+        "name": "60. A client packet is received by a server. The packet has a destination port number of 67. What service is the client requesting?",
+        "value": "DHCP"
     },
     {
-        "name": "61.Az ARP melyik tulajdonsága teszi lehetővé, hogy a LAN-on lévő hosztok forgalmat küldjenek távoli hálózatokba?",
-        "value": "A helyi hosztok megtudják az alapértelmezett átjáró MAC-címét."
+        "name": "61. What are two problems that can be caused by a large number of ARP request and reply messages? (Choose two.)",
+        "value": "The ARP request is sent as a broadcast, and will flood the entire subnet; All ARP request messages must be processed by all nodes on the local network."
     },
     {
-        "name": "62.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a regisztrátori LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "192.168.235.234",
-        "image": "https://i.ibb.co/CKn8gk25/k-p.png"
+        "name": "62. A group of Windows PCs in a new subnet has been added to an Ethernet network. When testing the connectivity, a technician finds that these PCs can access local network resources but not the Internet resources. To troubleshoot the problem, the technician wants to initially confirm the IP address and DNS configurations on the PCs, and also verify connectivity to the local router. Which three Windows CLI commands and utilities will provide the necessary information? (Choose three.)",
+        "value": "ping; ipconfig; nslookup"
     },
     {
-        "name": "63.Az ARP melyik tulajdonsága kényszeríti az összes Ethernet hálózati kártyát az ARP-kérés feldolgozására?",
-        "value": "A cél MAC-cím FF-FF-FF-FF-FF-FF megjelenik az Ethernet-keret fejlécében."
+        "name": "63. During the process of forwarding traffic, what will the router do immediately after matching the destination IP address to a network on a directly connected routing table entry?",
+        "value": "switch the packet to the directly connected interface"
     },
     {
-        "name": "64.Az ARP melyik tulajdonsága okozza, hogy csak az ARP-kérést küldő forrás kap választ?",
-        "value": "A forrás MAC-cím az Ethernet-keret fejlécében jelenik meg."
+        "name": "64. What characteristic describes antispyware?",
+        "value": "applications that protect end devices from becoming infected with malicious software"
     },
     {
-        "name": "65.Az ARP melyik tulajdonsága okozza azt, hogy a kérés az ARP-kérést fogadó port kivételével a switch összes portjára kiáramlik?",
-        "value": "A cél MAC-cím FF-FF-FF-FF-FF-FF megjelenik az Ethernet-keret fejlécében."
+        "name": "65. A network administrator needs to keep the user ID, password, and session contents private when establishing remote CLI connectivity with a switch to manage it. Which access method should be chosen?",
+        "value": "SSH"
     },
     {
-        "name": "66.Az ARP melyik tulajdonsága okozza, hogy az ARP-kérést fogadó hálózati kártyák az Ethernet-keret adatrészét továbbítják az ARP-folyamatnak?",
-        "value": "A 0x806 típusú mező az Ethernet-keret fejlécében jelenik meg."
+        "name": "66. What are the two most effective ways to defend against malware? (Choose two.)",
+        "value": "Update the operating system and other application software; Install and update antivirus software."
     },
     {
-        "name": "67.Az ARP melyik tulajdonsága okozza, hogy az ARP-kérést fogadó hálózati kártyák az Ethernet-keret adatrészét továbbítják az ARP-folyamatnak?",
-        "value": "A 0x806 típusú mező az Ethernet-keret fejlécében jelenik meg."
+        "name": "67. Which type of security threat would be responsible if a spreadsheet add-on disables the local software firewall?",
+        "value": "Trojan horse"
     },
     {
-        "name": "68.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a szerviz LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "172.29.157.156",
-        "image": "https://i.ibb.co/KxD9JkmG/k-p.png"
+        "name": "68. Which frame field is created by a source node and used by a destination node to ensure that a transmitted data signal has not been altered by interference, distortion, or signal loss?",
+        "value": "frame check sequence field"
     },
     {
-        "name": "69.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi az orvosi LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet kell az új állomáson alapértelmezett átjáróként beállítani?",
-        "value": "192.168.191.189",
-        "image": "https://i.ibb.co/ytKFQwg/k-p.png"
+        "name": "69. A network administrator is adding a new LAN to a branch office. The new LAN must support 4 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+        "value": "255.255.255.248"
     },
     {
-        "name": "70.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a regisztrátori LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "192.168.225.223",
-        "image": "https://i.ibb.co/CsnBDHP1/k-p.png"
+        "name": "70. What service is provided by POP3?",
+        "value": "Retrieves email from the server by downloading the email to the local mail application of the client."
     },
     {
-        "name": "71.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Manager LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "10.118.62.196"
+        "name": "71. What two security solutions are most likely to be used only in a corporate environment? (Choose two.)",
+        "value": "virtual private networks; intrusion prevention systems"
     },
     {
-        "name": "72.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Store LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "172.19.98.230",
-        "image": "https://i.ibb.co/Ldz3hcB0/k-p.png"
+        "name": "72. What characteristic describes antivirus software?",
+        "value": "applications that protect end devices from becoming infected with malicious software"
     },
     {
-        "name": "73.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a Store LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "172.20.132.13",
-        "image": "https://i.ibb.co/qXBQvTq/k-p.png"
-    },
-    {
-        "name": "74.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi a szerviz LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet konfigurálna alapértelmezett átjáróként az új állomáson?",
-        "value": "192.168.167.166",
-        "image": "https://i.ibb.co/HLfyg8Vp/k-p.png"
-    },
-    {
-        "name": "75.Lásd a kiállítást. A hálózati rendszergazda egy új állomás csatlakoztatását végzi az orvosi LAN-hoz. Az állomásnak távoli hálózatokkal kell kommunikálnia. Milyen IP-címet kell az új állomáson alapértelmezett átjáróként beállítani?",
-        "value": "192.168.201.200",
-        "image": "https://i.ibb.co/VW5qYy3K/k-p.png"
-    }
-]
+        "name": "73. What mechanism is used by a router to prevent a received IPv4 packet from trav

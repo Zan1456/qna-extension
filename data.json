@@ -1,7 +1,7 @@
 [
     {
         "name": "1. Which two traffic types use the Real-Time Transport Protocol (RTP)? (Choose two.)",
-        "value": "video, voice"
+        "value": "video ◢◤ voice"
     },
     {
         "name": "2. Which wireless technology has low-power and data rate requirements making it popular in home automation applications?",
@@ -45,7 +45,7 @@
     },
     {
         "name": "12. Match the description to the IPv6 addressing component. (Not all options are used.)",
-        "value": "This network portion of the address is assigned by the provider: global routing; This part of the address is used by an organization to identify subnets: subnet ID; This part of the address is the equivalent to the host portion of an IPv4 address: interface ID",
+        "value": "This network portion of the address is assigned by the provider: global routing ◢◤ This part of the address is used by an organization to identify subnets: subnet ID ◢◤ This part of the address is the equivalent to the host portion of an IPv4 address: interface ID",
         "image": "https://itexamanswers.net/wp-content/uploads/2020/01/2020-03-26_171754.png"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "name": "14. Match the characteristic to the forwarding method. (Not all options are used.)",
-        "value": "Cut-through: low latency, may forward runt frames, begins forwarding when the destination address is received; Store-and-forward: always stores the entire frame, checks the CRC before forwarding, checks the frame length before forwarding"
+        "value": "Cut-through: low latency, may forward runt frames, begins forwarding when the destination address is received ◢◤ Store-and-forward: always stores the entire frame, checks the CRC before forwarding, checks the frame length before forwarding"
     },
     {
         "name": "15. Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
@@ -77,7 +77,7 @@
     },
     {
         "name": "19. A network administrator notices that some newly installed Ethernet cabling is carrying corrupt and distorted data signals. The new cabling was installed in the ceiling close to fluorescent lights and electrical equipment. Which two factors may interfere with the copper cabling and result in signal distortion and data corruption? (Choose two.)",
-        "value": "RFI​, EMI"
+        "value": "RFI ◢◤ EMI"
     },
     {
         "name": "20. A host is trying to send a packet to a device on a remote LAN segment, but there are currently no mappings in its ARP cache. How will the device obtain a destination MAC address?",
@@ -118,7 +118,7 @@
     },
     {
         "name": "29. Match the application protocols to the correct transport protocols.",
-        "value": "TCP: FTP, HTTP, SMTP; UDP: DHCP, TFTP"
+        "value": "TCP: FTP, HTTP, SMTP ◢◤ UDP: DHCP, TFTP"
     },
     {
         "name": "30. What service is provided by SMTP?",
@@ -130,7 +130,7 @@
     },
     {
         "name": "32. Refer to the exhibit. Host B on subnet Teachers transmits a packet to host D on subnet Students. Which Layer 2 and Layer 3 addresses are contained in the PDUs that are transmitted from host B to the router?",
-        "value": "Layer 2 d = 00-00-0c-94-36-ab, s = 00-00-0c-94-36-bb; Layer 3 d = 172.16.20.200, s = 172.16.10.200",
+        "value": "Layer 2 d = 00-00-0c-94-36-ab ◢◤ s = 00-00-0c-94-36-bb ◢◤ Layer 3 d = 172.16.20.200 ◢◤ s = 172.16.10.200",
         "image": "https://itexamanswers.net/wp-content/uploads/2020/01/2020-03-26_171754.png"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
         "name": "35. Which two protocols operate at the top layer of the TCP/IP protocol suite? (Choose two.)",
-        "value": "POP, DNS"
+        "value": "POP ◢◤ DNS"
     },
     {
         "name": "36. A company has a file server that shares a folder named Public. The network security policy specifies that the Public folder is assigned Read-Only rights to anyone who can log into the server while the Edit rights are assigned only to the network admin group. Which component is addressed in the AAA network service framework?",
@@ -152,19 +152,19 @@
     },
     {
         "name": "37. What three requirements are defined by the protocols used in network communcations to allow message transmission across a network? (Choose three.)",
-        "value": "message size, message encoding, delivery options"
+        "value": "message size ◢◤ message encoding ◢◤ delivery options"
     },
     {
         "name": "38. What are two characteristics of IP? (Choose two.)",
-        "value": "does not require a dedicated end-to-end connection, operates independently of the network media"
+        "value": "does not require a dedicated end-to-end connection ◢◤ operates independently of the network media"
     },
     {
         "name": "39. An employee of a large corporation remotely logs into the company using the appropriate username and password. The employee is attending an important video conference with a customer concerning a large sale. It is important for the video quality to be excellent during the meeting. The employee is unaware that after a successful login, the connection to the company ISP failed. The secondary connection, however, activated within seconds. The disruption was not noticed by the employee or other employees. What three network characteristics are described in this scenario? (Choose three.)",
-        "value": "security, quality of service, fault tolerance"
+        "value": "security ◢◤ quality of service ◢◤ fault tolerance"
     },
     {
         "name": "40. What are two common causes of signal degradation when using UTP cabling? (Choose two.)",
-        "value": "improper termination, low-quality cable or connectors"
+        "value": "improper termination ◢◤ low-quality cable or connectors"
     },
     {
         "name": "41. Which subnet would include the address 192.168.1.96 as a usable host address?",
@@ -172,12 +172,12 @@
     },
     {
         "name": "42. Refer to the exhibit. On the basis of the output, which two statements about network connectivity are correct? (Choose two.)",
-        "value": "There are 4 hops between this device and the device at 192.168.100.1.; There is connectivity between this device and the device at 192.168.100.1.",
+        "value": "There are 4 hops between this device and the device at 192.168.100.1. ◢◤ There is connectivity between this device and the device at 192.168.100.1.",
         "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i275429v1n1_chapter-9-WAN-images2.jpg"
     },
     {
         "name": "43. Which two statements describe how to assess traffic flow patterns and network traffic types using a protocol analyzer? (Choose two.)",
-        "value": "Capture traffic during peak utilization times to get a good representation of the different traffic types; Perform the capture on different network segments"
+        "value": "Capture traffic during peak utilization times to get a good representation of the different traffic types ◢◤ Perform the capture on different network segments"
     },
     {
         "name": "44. What is the consequence of configuring a router with the ipv6 unicast-routing global configuration command?​",
@@ -198,7 +198,7 @@
     },
     {
         "name": "48. What are two features of ARP? (Choose two.)",
-        "value": "If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast; If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply"
+        "value": "If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast ◢◤ If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply"
     },
     {
         "name": "49. A network administrator is adding a new LAN to a branch office. The new LAN must support 90 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
@@ -222,7 +222,7 @@
     },
     {
         "name": "54. Which two functions are performed at the LLC sublayer of the OSI Data Link Layer to facilitate Ethernet communication? (Choose two.)?",
-        "value": "enables IPv4 and IPv6 to utilize the same physical medium; places information in the Ethernet frame that identifies which network layer protocol is being encapsulated by the frame; handles communication between upper layer networking software and Ethernet NIC hardware; adds Ethernet control information to network protocol data"
+        "value": "enables IPv4 and IPv6 to utilize the same physical medium ◢◤ places information in the Ethernet frame that identifies which network layer protocol is being encapsulated by the frame ◢◤ handles communication between upper layer networking software and Ethernet NIC hardware ◢◤ adds Ethernet control information to network protocol data"
     },
     {
         "name": "55. The global configuration command ip default-gateway 172.16.100.1 is applied to a switch. What is the effect of this command?",
@@ -234,7 +234,7 @@
     },
     {
         "name": "57. Match the type of threat with the cause. (Not all options are used.)",
-        "value": "electrical threats: voltage spikes, insufficient supply voltage (brownouts), unconditioned power (noise), and total power loss; hardware threats: physical damage to servers, routers, switches, cabling plant, and workstations; environmental threats: temperature extremes (too hot or too cold) or humidity extremes (too wet or too dry; maintenance threats: poor handling of key electrical components (electrostatic discharge), lack of critical spare parts, poor cabling, and poor labeling"
+        "value": "electrical threats: voltage spikes, insufficient supply voltage (brownouts), unconditioned power (noise), and total power loss ◢◤ hardware threats: physical damage to servers, routers, switches, cabling plant, and workstations ◢◤ environmental threats: temperature extremes (too hot or too cold) or humidity extremes (too wet or too dry ◢◤ maintenance threats: poor handling of key electrical components (electrostatic discharge), lack of critical spare parts, poor cabling, and poor labeling"
     },
     {
         "name": "58. A disgruntled employee is using some free wireless networking tools to determine information about the enterprise wireless networks. This person is planning on using this information to hack the wireless network. What type of attack is this?",
@@ -250,11 +250,11 @@
     },
     {
         "name": "61. What are two problems that can be caused by a large number of ARP request and reply messages? (Choose two.)",
-        "value": "The ARP request is sent as a broadcast, and will flood the entire subnet; All ARP request messages must be processed by all nodes on the local network."
+        "value": "The ARP request is sent as a broadcast, and will flood the entire subnet ◢◤ All ARP request messages must be processed by all nodes on the local network."
     },
     {
         "name": "62. A group of Windows PCs in a new subnet has been added to an Ethernet network. When testing the connectivity, a technician finds that these PCs can access local network resources but not the Internet resources. To troubleshoot the problem, the technician wants to initially confirm the IP address and DNS configurations on the PCs, and also verify connectivity to the local router. Which three Windows CLI commands and utilities will provide the necessary information? (Choose three.)",
-        "value": "ping; ipconfig; nslookup"
+        "value": "ping ◢◤ ipconfig ◢◤ nslookup"
     },
     {
         "name": "63. During the process of forwarding traffic, what will the router do immediately after matching the destination IP address to a network on a directly connected routing table entry?",
@@ -270,7 +270,7 @@
     },
     {
         "name": "66. What are the two most effective ways to defend against malware? (Choose two.)",
-        "value": "Update the operating system and other application software; Install and update antivirus software."
+        "value": "Update the operating system and other application software ◢◤ Install and update antivirus software."
     },
     {
         "name": "67. Which type of security threat would be responsible if a spreadsheet add-on disables the local software firewall?",
@@ -290,7 +290,7 @@
     },
     {
         "name": "71. What two security solutions are most likely to be used only in a corporate environment? (Choose two.)",
-        "value": "virtual private networks; intrusion prevention systems"
+        "value": "virtual private networks ◢◤ intrusion prevention systems"
     },
     {
         "name": "72. What characteristic describes antivirus software?",
@@ -306,11 +306,11 @@
     },
     {
         "name": "75. An administrator defined a local user account with a secret password on router R1 for use with SSH. Which three additional steps are required to configure R1 to accept only encrypted SSH connections? (Choose three.)",
-        "value": "Configure the IP domain name on the router.; Generate the SSH keys; Enable inbound vty SSH sessions"
+        "value": "Configure the IP domain name on the router. ◢◤ Generate the SSH keys ◢◤ Enable inbound vty SSH sessions"
     },
     {
         "name": "76. Which two functions are performed at the MAC sublayer of the OSI Data Link Layer to facilitate Ethernet communication? (Choose two.)",
-        "value": "implements trailer with frame check sequence for error detection; implements a process to delimit fields within an Ethernet 2 frame; responsible for internal structure of Ethernet frame; integrates Layer 2 flows between 10 Gigabit Ethernet over fiber and 1 Gigabit Ethernet over copper; implements CSMA/CD over legacy shared half-duplex media; applies delimiting of Ethernet frame fields to synchronize communication between nodes; applies source and destination MAC addresses to Ethernet frame"
+        "value": "implements trailer with frame check sequence for error detection ◢◤ implements a process to delimit fields within an Ethernet 2 frame ◢◤ responsible for internal structure of Ethernet frame ◢◤ integrates Layer 2 flows between 10 Gigabit Ethernet over fiber and 1 Gigabit Ethernet over copper ◢◤ implements CSMA/CD over legacy shared half-duplex media ◢◤ applies delimiting of Ethernet frame fields to synchronize communication between nodes ◢◤ applies source and destination MAC addresses to Ethernet frame"
     },
     {
         "name": "77. An IPv6 enabled device sends a data packet with the destination address of FF02::2. What is the target of this packet?​",
@@ -318,11 +318,11 @@
     },
     {
         "name": "78. What are the three parts of an IPv6 global unicast address? (Choose three.)",
-        "value": "subnet ID; global routing prefix; interface ID"
+        "value": "subnet ID ◢◤ global routing prefix ◢◤ interface ID"
     },
     {
         "name": "79. A network administrator is designing the layout of a new wireless network. Which three areas of concern should be accounted for when building a wireless network? (Choose three.)",
-        "value": "interference; security; coverage area"
+        "value": "interference ◢◤ security ◢◤ coverage area"
     },
     {
         "name": "80. A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured?",
@@ -358,11 +358,11 @@
     },
     {
         "name": "88. A user is attempting to access http://www.cisco.com/ without success. Which two configuration values must be set on the host to allow this access? (Choose two.)",
-        "value": "DNS server; default gateway"
+        "value": "DNS server ◢◤ default gateway"
     },
     {
         "name": "89. Which two statements accurately describe an advantage or a disadvantage when deploying NAT for IPv4 in a network? (Choose two.)",
-        "value": "NAT introduces problems for some applications that require end-to-end connectivity; NAT provides a solution to slow down the IPv4 address depletion"
+        "value": "NAT introduces problems for some applications that require end-to-end connectivity ◢◤ NAT provides a solution to slow down the IPv4 address depletion"
     },
     {
         "name": "90. What would be the interface ID of an IPv6 enabled interface with a MAC address of 1C-6F-65-C2-BD-F8 when the interface ID is generated by using the EUI-64 process?",
@@ -387,7 +387,7 @@
     },
     {
         "name": "95. Match a statement to the related network model. (Not all options are used.)",
-        "value": "peer-to-peero network: no dedicated server is required, client and server roles are set on a per request basis; peer-to-peer application: requires a specific user interface, a background service is required"
+        "value": "peer-to-peero network: no dedicated server is required, client and server roles are set on a per request basis ◢◤ peer-to-peer application: requires a specific user interface, a background service is required"
     },
     {
         "name": "96. What are two primary responsibilities of the Ethernet MAC sublayer? (Choose two.)",
@@ -395,12 +395,12 @@
     },
     {
         "name": "97. What is the purpose of the TCP three-way handshake?",
-        "value": "The switch can be remotely managed; One device is attached to a physical interface; The default SVI has been configured.",
+        "value": "The switch can be remotely managed ◢◤ One device is attached to a physical interface ◢◤ The default SVI has been configured.",
         "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i274067v1n1_274067.jpg"
     },
     {
         "name": "98. Match each type of frame field to its function. (Not all options are used.)",
-        "value": "addressing: This field helps to direct the frame toward its destination; error detection: This field checks if the frame has been damaged during the transfer; type This field is used by the LLC to identify the Layer 3 protocol; frame start: This field identifies the beginning of a frame."
+        "value": "addressing: This field helps to direct the frame toward its destination ◢◤ error detection: This field checks if the frame has been damaged during the transfer ◢◤ type This field is used by the LLC to identify the Layer 3 protocol ◢◤ frame start: This field identifies the beginning of a frame."
     },
     {
         "name": "99. What is the subnet ID associated with the IPv6 address 2001:DA48:FC5:A4:3D1B::1/64?",
@@ -408,7 +408,7 @@
     },
     {
         "name": "100. Match the firewall function to the type of threat protection it provides to the network. (Not all options are used.)",
-        "value": "prevents access by port number: application filtering; prevents access based on IP or MAC address: packet filtering; prevents unsolicited incoming sessions: stateful packet inspection; prevents access to websites: URL filtering"
+        "value": "prevents access by port number: application filtering ◢◤ prevents access based on IP or MAC address: packet filtering ◢◤ prevents unsolicited incoming sessions: stateful packet inspection ◢◤ prevents access to websites: URL filtering"
     },
     {
         "name": "101. Users are reporting longer delays in authentication and in accessing network resources during certain time periods of the week. What kind of information should network engineers check to find out if this situation is part of a normal network behavior?",
@@ -420,7 +420,7 @@
     },
     {
         "name": "103. Which two statements are correct in a comparison of IPv4 and IPv6 packet headers? (Choose two.)",
-        "value": "The Source Address field name from IPv4 is kept in IPv6; The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6"
+        "value": "The Source Address field name from IPv4 is kept in IPv6 ◢◤ The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6"
     },
     {
         "name": "104. The network administrator has deemed that 192.168.10.0/24 is to be the network used at this site. Which single subnet mask would make the most efficient use of the available addresses to use for the four subnetworks?",
@@ -436,12 +436,12 @@
     },
     {
         "name": "107. What are three commonly followed standards for constructing and installing cabling? (Choose three.)",
-        "value": "cable lengths; pinouts; connector types",
+        "value": "cable lengths ◢◤ pinouts ◢◤ connector types",
         "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i274300v1n1_209630-300x221-1.png"
     },
     {
         "name": "108. Refer to the exhibit. What is wrong with the displayed termination?",
-        "value": "IP address: contained in the Layer 3 header, separated into a network portion and a unique identifier, 32 or 128 bits; MAC address: contained in the Layer 2 header, separated into OUI and a unique identifier, 48 bits"
+        "value": "IP address: contained in the Layer 3 header, separated into a network portion and a unique identifier, 32 or 128 bits ◢◤ MAC address: contained in the Layer 2 header, separated into OUI and a unique identifier, 48 bits"
     },
     {
         "name": "109. Match the characteristic to the category. (Not all options are used.)",
@@ -457,7 +457,7 @@
     },
     {
         "name": "112. Refer to the exhibit. Which two network addresses can be assigned to the network containing 10 hosts? Your answers should waste the fewest addresses, not reuse addresses that are already assigned, and stay within the 10.18.10.0/24 range of addresses. (Choose two.)",
-        "value": "10.18.10.208/28; 10.18.10.224/28",
+        "value": "10.18.10.208/28 ◢◤ 10.18.10.224/28",
         "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i274518v1n1_247518.png"
     },
     {
@@ -488,7 +488,7 @@
     },
     {
         "name": "119. Match a statement to the related network model. (Not all options are used.)",
-        "value": "peer-to-peer network: no dedicated server is required, client and server roles are set on a per request basis; peer-to-peer aplication: requires a specific user interface, a background service is required"
+        "value": "peer-to-peer network: no dedicated server is required, client and server roles are set on a per request basis ◢◤ peer-to-peer aplication: requires a specific user interface, a background service is required"
     },
     {
         "name": "120. Refer to the exhibit. A network engineer has been given the network address of 192.168.99.0 and a subnet mask of 255.255.255.192 to subnet across the four networks shown. How many total host addresses are unused across all four subnets?",
@@ -514,7 +514,7 @@
     },
     {
         "name": "125. Match the header field with the appropriate layer of the OSI model. (Not all options are used.)",
-        "value": "Layer 2: 802.2 header, FCS (frame check squence), destination MAC address; Layer 3: source IP address, TTL; Layer 4: destination port number, Acknowledgement number"
+        "value": "Layer 2: 802.2 header, FCS (frame check squence), destination MAC address ◢◤ Layer 3: source IP address, TTL ◢◤ Layer 4: destination port number, Acknowledgement number"
     },
     {
         "name": "126. Refer to the exhibit. The switches have a default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for the default gateway. Which network devices will receive the ARP request sent by host A?",
@@ -556,7 +556,7 @@
     },
     {
         "name": "135. Which two statements are correct about MAC and IP addresses during data transmission if NAT is not involved? (Choose two.)",
-        "value": "Destination IP addresses in a packet header remain constant along the entire path to a target host; Destination and source MAC addresses have local significance and change every time a frame goes from one LAN to another"
+        "value": "Destination IP addresses in a packet header remain constant along the entire path to a target host ◢◤ Destination and source MAC addresses have local significance and change every time a frame goes from one LAN to another"
     },
     {
         "name": "136. What is one main characteristic of the data link layer?",
@@ -564,7 +564,7 @@
     },
     {
         "name": "137. What are three characteristics of the CSMA/CD process? (Choose three.)",
-        "value": "A device listens and waits until the media is not busy before transmitting; After detecting a collision, hosts can attempt to resume transmission after a random time delay has expired; All of the devices on a segment see data that passes on the network medium"
+        "value": "A device listens and waits until the media is not busy before transmitting ◢◤ After detecting a collision, hosts can attempt to resume transmission after a random time delay has expired ◢◤ All of the devices on a segment see data that passes on the network medium"
     },
     {
         "name": "138. Which information does the show startup-config command display?",
@@ -572,15 +572,15 @@
     },
     {
         "name": "139. Which two commands can be used on a Windows host to display the routing table? (Choose two.)",
-        "value": "route print; netstat -r"
+        "value": "route print ◢◤ netstat -r"
     },
     {
         "name": "140. What are two functions that are provided by the network layer? (Choose two.)",
-        "value": "directing data packets to destination hosts on other networks; providing end devices with a unique network identifier"
+        "value": "directing data packets to destination hosts on other networks ◢◤ providing end devices with a unique network identifier"
     },
     {
         "name": "141. Which two statements describe features of an IPv4 routing table on a router? (Choose two.)​",
-        "value": "It stores information about routes derived from the active router interfaces; If a default static route is configured in the router, an entry will be included in the routing table with source code S; The routing table stores information about routes derived from the active router interfaces"
+        "value": "It stores information about routes derived from the active router interfaces ◢◤ If a default static route is configured in the router, an entry will be included in the routing table with source code S ◢◤ The routing table stores information about routes derived from the active router interfaces"
     },
     {
         "name": "142. What characteristic describes a VPN?",
@@ -592,7 +592,7 @@
     },
     {
         "name": "144. Match each description to its corresponding term. (Not all options are used.)",
-        "value": "message encapsulation: the process of placing one message format inside another message format; message sizing: the process of breaking up a long message into individual pieces before being sent over the network; message encoding: the process of converting information from one format into another acceptable for transmission"
+        "value": "message encapsulation: the process of placing one message format inside another message format ◢◤ message sizing: the process of breaking up a long message into individual pieces before being sent over the network ◢◤ message encoding: the process of converting information from one format into another acceptable for transmission"
     },
     {
         "name": "145. A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?",
@@ -604,11 +604,11 @@
     },
     {
         "name": "147. Data is being sent from a source PC to a destination server. Which three statements correctly describe the function of TCP or UDP in this situation? (Choose three.)",
-        "value": "The source port field identifies the running application or service that will handle data returning to the PC; UDP segments are encapsulated within IP packets for transport across the network; The UDP destination port number identifies the application or service on the server which will handle the data."
+        "value": "The source port field identifies the running application or service that will handle data returning to the PC ◢◤ UDP segments are encapsulated within IP packets for transport across the network ◢◤ The UDP destination port number identifies the application or service on the server which will handle the data."
     },
     {
         "name": "148. Match each description with the corresponding TCP mechanism. (Not all options are used.)",
-        "value": "number of bytes a destination device can accept and process at one time: window size; used to identify missing segments of data: sequence numbers; method of managing segments of data loss: retransmission; received by a sender before transmitting more segments in a session: acknowledgment"
+        "value": "number of bytes a destination device can accept and process at one time: window size ◢◤ used to identify missing segments of data: sequence numbers ◢◤ method of managing segments of data loss: retransmission ◢◤ received by a sender before transmitting more segments in a session: acknowledgment"
     },
     {
         "name": "149. Refer to the exhibit. A company uses the address block of 128.107.0.0/16 for its network. What subnet mask would provide the maximum number of equal size subnets while providing enough host addresses for each subnet in the exhibit?",
@@ -621,7 +621,7 @@
     },
     {
         "name": "151. Match each item to the type of topology diagram on which it is typically identified. (Not all options are used.)",
-        "value": "physical topology diagram: location of a desktop PC in a classroom, path of cables that connect rooms to wiring closets; logical topology diagram: IP address of a server"
+        "value": "physical topology diagram: location of a desktop PC in a classroom, path of cables that connect rooms to wiring closets ◢◤ logical topology diagram: IP address of a server"
     },
     {
         "name": "152. What two pieces of information are displayed in the output of the show ip interface brief command? (Choose two.)",
@@ -637,11 +637,11 @@
     },
     {
         "name": "155. A network technician is researching the use of fiber optic cabling in a new technology center. Which two issues should be considered before implementing fiber optic media? (Choose two.)",
-        "value": "Fiber optic cabling requires different termination and splicing expertise from what copper cabling requires; Fiber optic provides higher data capacity but is more expensive than copper cabling."
+        "value": "Fiber optic cabling requires different termination and splicing expertise from what copper cabling requires ◢◤ Fiber optic provides higher data capacity but is more expensive than copper cabling."
     },
     {
         "name": "156. Match each description with an appropriate IP address. (Not all options are used.)",
-        "value": "an experimental address: 240.2.6.255; a link-local address: 169.254.1.5; a public address: 198.133.219.2; a loopback address: 127.0.0.1"
+        "value": "an experimental address: 240.2.6.255 ◢◤ a link-local address: 169.254.1.5 ◢◤ a public address: 198.133.219.2 ◢◤ a loopback address: 127.0.0.1"
     },
     {
         "name": "157. A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",

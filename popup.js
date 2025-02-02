@@ -94,3 +94,6 @@ document.addEventListener("DOMContentLoaded", () => {
     themeToggle.innerHTML = `<i class="fas ${newTheme === "dark" ? "fa-sun" : "fa-moon"}"></i>`;
   });
 });
+
+var manifestdetails = chrome.runtime.getManifest();
+document.getElementById("version").innerText = "v" + manifestdetails.version;

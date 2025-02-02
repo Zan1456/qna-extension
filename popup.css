@@ -18,16 +18,17 @@ body.dark {
 
 /* Scrollbar */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 0px;
 }
 
 body::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
+  background: #7c7c7c;
+  border-radius: 1px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #0078d7;
-  border-radius: 4px;
+  background: #ffffff;
+  border-radius: 1px;
 }
 
 /* Container */

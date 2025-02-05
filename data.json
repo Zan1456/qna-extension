@@ -32,11 +32,11 @@
   "name": "11. Három banki alkalmazott használja a vállalati hálózatot. Az első alkalmazott egy weboldalt böngész, hogy értesítéseket olvasson. A második alkalmazott hozzáfér a vállalati adatbázishoz pénzügyi tranzakciók végrehajtásához. A harmadik alkalmazott egy élő hangkonferencián vesz részt más fiókirodai vezetőkkel. Ha QoS van alkalmazva a hálózaton, mi lesz a különböző adattípusok prioritási sorrendje a legmagasabbtól a legalacsonyabbig?",
   "value": "hangkonferencia, pénzügyi tranzakciók, weboldal"
 }, {
-  "name": "12. Párosítsa az IPv6 címzési komponenseket a leírásokkal. (Nem minden lehetőséget kell használni.)",
+  "name": "12. Párosítsd az IPv6 címzési komponenseket a leírásokkal. (Nem minden lehetőséget kell használni.)",
   "value": "A cím ezen hálózati részét a szolgáltató osztja ki: globális útválasztás ◢◤ A cím ezen része egy szervezet számára lehetővé teszi az alhálózatok azonosítását: alhálózat-azonosító ◢◤ A cím ezen része az IPv4 cím gazdagép részének felel meg: interfészazonosító"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i275370v1n1_275370-2.png",
-  "name": "13. Tanulmányozza az ábrát. Ha a Host1 egy fájlt továbbítana a szerverre, a TCP/IP modell mely rétegei lennének használatban?",
+  "name": "13. Tanulmányozd az ábrát. Ha a Host1 egy fájlt továbbítana a szerverre, a TCP/IP modell mely rétegei lennének használatban?",
   "value": "alkalmazás, szállítás, internet és hálózati hozzáférési rétegek"
 }, {
   "name": "14. Párosítsd a jellemzőket az átvitel módjával. (Nem minden lehetőséget kell használni.)",
@@ -82,7 +82,7 @@
   "value": "255.255.255.192"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i207918v1n1_207918-1-1.jpg",
-  "name": "27. Tekintsd meg az ábrát. Párosítsd a hálózatokat a megfelelő IP-címmel és előtaggal, amelyek kielégítik az egyes hálózatok használható állomáscímzési követelményeit. (Nem minden lehetőséget kell használni.)",
+  "name": "27. Tanulmányozza az ábrát. Párosítsd a hálózatokat a megfelelő IP-címmel és előtaggal, amelyek kielégítik az egyes hálózatok használható állomáscímzési követelményeit. (Nem minden lehetőséget kell használni.)",
   "value": "A: 192.168.0.0 /25 ◢◤ B: 192.168.0.128 /26 ◢◤ C: 192.168.0.192 /27 ◢◤ D: 192.168.0.224 /30"
 }, {
   "name": "28. Milyen jellemző írja le a DoS támadást?",
@@ -98,14 +98,14 @@
   "value": "Egy diák két webböngésző-ablakot nyitott meg két különböző weboldal eléréséhez. A szállítási réteg biztosítja, hogy a megfelelő weboldal a megfelelő böngészőablakba érkezzen"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i204796v11n1_204796-TOPOLOGY-ARP.png",
-  "name": "32. Tekintsd meg az ábrát. A Teachers alhálózatban lévő B számítógép csomagot küld a Students alhálózatban lévő D számítógépnek. Milyen 2. és 3. rétegbeli címek szerepelnek a továbbított PDU-kban?",
+  "name": "32. Tanulmányozza az ábrát. A Teachers alhálózatban lévő B számítógép csomagot küld a Students alhálózatban lévő D számítógépnek. Milyen 2. és 3. rétegbeli címek szerepelnek a továbbított PDU-kban?",
   "value": "2. réteg d = 00-00-0c-94-36-ab ◢◤2. réteg s = 00-00-0c-94-36-bb ◢◤ 3. réteg d = 172.16.20.200 ◢◤ 3. réteg s = 172.16.10.200"
 }, {
   "name": "33. Mit jelent az „csillapítás” a számítógépes hálózatokban?",
   "value": "a távolság növekedésével csökken a jelerősség"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i208399v1n1_Question-1.png",
-  "name": "34. Tekintsd meg az ábrát. Egy rendszergazda megpróbálja konfigurálni a kapcsolót, de a megjelenő hibaüzenetet kapja. Mi a probléma?",
+  "name": "34. Tanulmányozza az ábrát. Egy rendszergazda megpróbálja konfigurálni a kapcsolót, de a megjelenő hibaüzenetet kapja. Mi a probléma?",
   "value": "A rendszergazdának először belépnie kell a privilegizált EXEC módba, mielőtt kiadhatná a parancsot"
 }, {
   "name": "35. Melyik két protokoll működik a TCP/IP protokollcsomag legfelső rétegében? (Válassz ki kettőt.)",
@@ -130,7 +130,7 @@
   "value": "192.168.1.64/26"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i275429v1n1_chapter-9-WAN-images2.jpg",
-  "name": "42. Tekintsd meg az ábrát. Az output alapján melyik két állítás helyes a hálózati kapcsolatokról? (Válassz ki kettőt.)",
+  "name": "42. Tanulmányozza az ábrát. Az output alapján melyik két állítás helyes a hálózati kapcsolatokról? (Válassz ki kettőt.)",
   "value": "4 ugrás van ezen eszköz és a 192.168.100.1 című eszköz között. ◢◤ Van kapcsolat ezen eszköz és a 192.168.100.1 című eszköz között."
 }, {
   "name": "43. Melyik két állítás írja le, hogyan lehet elemezni a forgalmi mintákat és hálózati forgalomtípusokat egy protokollelemző segítségével? (Válassz ki kettőt.)",
@@ -143,7 +143,7 @@
   "value": "alkalmazási ◢◤ viszony ◢◤ megjelenítési réteg"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i271152v1n1_271152.png",
-  "name": "46. Tekintsd meg az ábrát. Ha a PC1 csomagot küld a PC2-nek, és az útválasztás be van állítva a két router között, mit fog tenni az R1 az Ethernet keret fejléceivel, amelyeket a PC1 csatolt hozzá?",
+  "name": "46. Tanulmányozd az ábrát. Ha a PC1 csomagot küld a PC2-nek, és az útválasztás be van állítva a két router között, mit fog tenni az R1 az Ethernet keret fejléceivel, amelyeket a PC1 csatolt hozzá?",
   "value": "eltávolítja az Ethernet fejlécet és konfigurál egy új 2. rétegbeli fejlécet, mielőtt elküldi az S0/0/0-án"
 }, {
   "name": "47. Mi történik, ha egy állomáson helytelenül van konfigurálva az alapértelmezett átjáró címe?",
@@ -156,7 +156,7 @@
   "value": "255.255.255.128"
 }, {
   "name": "50. Mi az a két ICMPv6-üzenet, amely nem szerepel az IPv4-es ICMP-ben? (Válassz ki kettőt.)",
-  "value": "Szomszédmegkeresés ◢◤ Router Hirdetés"
+  "value": "Szomszéd keresés ◢◤ Router Hirdetés"
 }, {
   "name": "51. Egy kliens csomagot egy szerver fogad. A csomag célportjának száma 80. Milyen szolgáltatást kér a kliens?",
   "value": "HTTP"
@@ -252,7 +252,7 @@
   "value": "CSMA/CA"
 }, {
   "name": "82. Mi az adatkapcsolati réteg egyik funkciója?",
-  "value": "biztosítja a keretek cseréjét egy közös helyi médián keresztül"
+  "value": "biztosítja a keretek cseréjét egy közös helyi közegen keresztül"
 }, {
   "name": "83. Mi a TCP csúszóablak célja?",
   "value": "kérheti, hogy a forrás csökkentse az adatátviteli sebességet."
@@ -279,7 +279,7 @@
   "value": "1E6F:65FF:FEC2:BDF8"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i209824v1n1_209824.jpg",
-  "name": "91. Tekintsd meg az ábrát. A PC1 ARP-kérést küld, mert csomagot kell küldenie a PC2-nek. Mi történik ebben a helyzetben ezután?",
+  "name": "91. Tanulmányozd az ábrát. A PC1 ARP-kérést küld, mert csomagot kell küldenie a PC2-nek. Mi történik ebben a helyzetben ezután?",
   "value": "A PC2 ARP-választ küld a saját MAC-címével."
 }, {
   "name": "92. Milyen szolgáltatást nyújt a BOOTP?",
@@ -295,7 +295,7 @@
   "value": "peer-to-peer hálózat: nincs szükség dedikált szerverre, a kliens és a szerver szerepek kérésenként kerülnek beállításra ◢◤ peer-to-peer alkalmazás: speciális felhasználói felületet igényel, háttérszolgáltatásra van szükség."
 }, {
   "name": "96. Melyek az Ethernet MAC alréteg két fő felelőssége? (Válassz ki kettőt.)",
-  "value": "média elérése ◢◤ adat beágyazása"
+  "value": "közeg elérése ◢◤ adat beágyazása"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i274067v1n1_274067.jpg",
   "name": "97. Tanulmányozd az ábrát. Milyen három tény állapítható meg a show ip interface brief parancs kimenetéből? (Válassz ki hármat.)",
@@ -345,7 +345,7 @@
   "value": "portszámozás ◢◤ ellenőrzőösszeg (checksum) használata"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i274518v1n1_247518.png",
-  "name": "112. Tanulmányozd az ábrát. Melyik két hálózati cím rendelhető a 10 állomásból álló hálózathoz? Válaszaid a lehető legkevesebb címet pazarolják, ne használják újra a már kiosztott címeket, és maradjanak a 10.18.10.0/24 címtartományon belül. (Válassz ki kettőt.)",
+  "name": "112. Tanulmányozza az ábrát. Melyik két hálózati cím rendelhető a 10 állomásból álló hálózathoz? Válaszaid a lehető legkevesebb címet pazarolják, ne használják újra a már kiosztott címeket, és maradjanak a 10.18.10.0/24 címtartományon belül. (Válassz ki kettőt.)",
   "value": "10.18.10.208/28 ◢◤ 10.18.10.224/28"
 }, {
   "name": "113. Egy kliens csomagot egy szerver fogad. A csomag célportjának száma 21. Milyen szolgáltatást kér a kliens?",
@@ -358,25 +358,25 @@
   "value": "255.255.255.240"
 }, {
   "name": "116. Milyen technikát használnak az UTP-kábelekkel az áthallásból eredő jelzavarok elleni védelemre?",
-  "value": "a huzalokat párba csavarva"
+  "value": "a vezetékeket párba csavarva"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2017/05/i209840v1n3_209840.jpg",
-  "name": "117. Tekintsd meg a kiállítást. A hálózati rendszergazda az LBMISS helyi hálózatához a 192.168.10.0 címtartományt rendelte. Ezt a címtartományt egy /29-es előtaggal alárendelte. Egy új épület elhelyezése érdekében a technikus úgy döntött, hogy az ötödik alhálózatot használja az új hálózat konfigurálásához (a nulladik alhálózat az első alhálózat). A vállalati irányelvek szerint az útválasztó interfész mindig az első használható állomáscímet kapja, a munkacsoport kiszolgálója pedig az utolsó használható állomáscímet. Melyik konfigurációt kell beírni a munkacsoport-kiszolgáló tulajdonságai közé, hogy lehetővé váljon az internethez való kapcsolódás?",
+  "name": "117. Tanulmányozza az ábrát. A hálózati rendszergazda az LBMISS helyi hálózatához a 192.168.10.0 címtartományt rendelte. Ezt a címtartományt egy /29-es előtaggal alárendelte. Egy új épület elhelyezése érdekében a technikus úgy döntött, hogy az ötödik alhálózatot használja az új hálózat konfigurálásához (a nulladik alhálózat az első alhálózat). A vállalati irányelvek szerint az útválasztó interfész mindig az első használható állomáscímet kapja, a munkacsoport kiszolgálója pedig az utolsó használható állomáscímet. Melyik konfigurációt kell beírni a munkacsoport-kiszolgáló tulajdonságai közé, hogy lehetővé váljon az internethez való kapcsolódás?",
   "value": "IP-cím: 192.168.10.38 ◢◤ alhálózati maszk: 255.255.255.255.248 ◢◤ alapértelmezett átjáró: 192.168.10.33"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2016/03/i275353v1n1_275353.jpg",
-  "name": "118. Tanulmányozza az ábrát. A kapcsolók alapértelmezett konfigurációban vannak. Az A állomásnak kommunikálnia kell a D állomással, de az A állomás nem rendelkezik az alapértelmezett átjáró MAC-címével. Melyik hálózati állomás fogja fogadni az A állomás által küldött ARP-kérést?",
+  "name": "118. Tanulmányozza az ábrát. A switchek alapértelmezett konfigurációban vannak. Az A állomásnak kommunikálnia kell a D állomással, de az A állomás nem rendelkezik az alapértelmezett átjáró MAC-címével. Melyik hálózati állomás fogja fogadni az A állomás által küldött ARP-kérést?",
   "value": "csak a B és C állomás, valamint az R útválasztó"
 }, {
   "name": "119. Párosíts egy állítást a hozzá tartozó hálózati modellhez. (Nem minden lehetőséget kell használni.)",
-  "value": "peer-to-peer hálózat: nincs szükség dedikált szerverre, az ügyfél és a szerver szerepek kérésenként kerülnek beállításra ◢◤ peer-to-peer alkalmazás: speciális felhasználói felületet igényel, háttérszolgáltatásra van szükség."
+  "value": "peer-to-peer hálózat: nincs szükség dedikált szerverre, az kliens és a szerver szerepek kérésenként kerülnek beállításra ◢◤ peer-to-peer alkalmazás: speciális felhasználói felületet igényel, háttérszolgáltatásra van szükség."
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/06/i304957v1n1_209418-1591171569.7915.png",
-  "name": "120. Tanulmányozza az ábrát. Egy hálózati mérnök a 192.168.99.0 hálózati címet és a 255.255.255.255.192 alhálózati maszkot kapta meg a négy látható hálózat alhálózatának kialakításához. Összesen hány állomáscím van kihasználatlanul mind a négy alhálózatban?\n",
+  "name": "120. Tanulmányozd az ábrát. Egy hálózati mérnök a 192.168.99.0 hálózati címet és a 255.255.255.255.192 alhálózati maszkot kapta meg a négy látható hálózat alhálózatának kialakításához. Összesen hány állomáscím van kihasználatlanul mind a négy alhálózatban?\n",
   "value": "200"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/06/i192179v1n1_RJ-45.png",
-  "name": "121. Melyik csatlakozót használják a csavart páros kábelezéshez egy Ethernet LAN-ban?",
+  "name": "121. Melyik csatlakozót használják a csavart érpáros kábelezéshez egy Ethernet LAN-ban?",
   "value": "RJ 45"
 }, {
   "name": "122. Egy kliens csomagot egy szerver fogad. A csomag célportjának száma 22. Milyen szolgáltatást kér a kliens?",
@@ -388,20 +388,20 @@
   "name": "124. Milyen szolgáltatást nyújt a DHCP?",
   "value": "IP-címeket rendel dinamikusan a vég- és közvetítő eszközökhöz."
 }, {
-  "name": "125. Párosítsa a fejlécmezőt az OSI-modell megfelelő rétegéhez. (Nem minden lehetőséget kell használni.)",
+  "name": "125. Párosítsd a fejlécmezőt az OSI-modell megfelelő rétegéhez. (Nem minden lehetőséget kell használni.)",
   "value": "2. réteg: 802.2 fejléc, FCS (frame check squence), cél MAC cím ◢◤ 3. réteg: forrás IP cím, TTL ◢◤ 4. réteg: célport száma, nyugtázási szám"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/12/i360201v3n1_275353-1608482322.6606.png",
-  "name": "126. Tanulmányozza az ábrát. A kapcsolók alapértelmezett konfigurációval rendelkeznek. Az A állomásnak kommunikálnia kell a D állomással, de az A állomás nem rendelkezik az alapértelmezett átjáró MAC-címével. Mely hálózati eszközök fogják fogadni az A állomás által küldött ARP-kérést?",
+  "name": "126. Tanulmányozd az ábrát. A switchek alapértelmezett konfigurációval rendelkeznek. Az A állomásnak kommunikálnia kell a D állomással, de az A állomás nem rendelkezik az alapértelmezett átjáró MAC-címével. Mely hálózati eszközök fogják fogadni az A állomás által küldött ARP-kérést?",
   "value": "csak a B és C állomás, valamint az R1 útválasztó"
 }, {
   "name": "127. Melyik vezeték nélküli technológia alacsony energiaigénye és alacsony adatátviteli sebességigénye teszi népszerűvé az IoT-környezetekben?",
   "value": "Zigbee"
 }, {
-  "name": "128. Milyen két ICMPv6 üzenettípust kell engedélyezni az IPv6 hozzáférés-vezérlési listákon keresztül, hogy a Layer 3 címek Layer 2 MAC-címekre történő feloldását lehetővé tegye? (Válassz ki kettőt.)",
-  "value": "szomszéd keresés, szomszéd hirdetés"
+  "name": "128. Milyen két ICMPv6 üzenettípust kell engedélyezni az IPv6 hozzáférés-vezérlési listákon keresztül, hogy a 3. rétegbeli címeket a 2. rétegbeli MAC-címekre történő feloldását lehetővé tegye? (Válassz ki kettőt.)",
+  "value": "szomszéd keresés ◢◤ szomszéd hirdetés"
 }, {
-  "name": "129. Egy ügyfél az SLAAC segítségével IPv6-címet szerez az interfészéhez. Miután a címet létrehozták és hozzáadták az interfészhez, mit kell tennie az ügyfélnek, mielőtt elkezdheti használni ezt az IPv6-címet?",
+  "name": "129. Egy kliens az SLAAC segítségével IPv6-címet szerez az interfészéhez. Miután a címet létrehozták és hozzáadták az interfészhez, mit kell tennie az kliensnek, mielőtt elkezdheti használni ezt az IPv6-címet?",
   "value": "ICMPv6 szomszéd kereséses (Neighbor Solicitation) üzenetet kell küldenie, hogy megbizonyosodjon arról, hogy a cím még nincs használatban a hálózaton."
 }, {
   "name": "130. Két pinget adtunk ki egy helyi hálózaton lévő állomásról. Az első pinget az állomás alapértelmezett átjárójának IP-címére küldték, és az sikertelen volt. A második pinget a helyi hálózaton kívüli állomás IP-címére küldték, és az sikeres volt. Mi lehet a sikertelen pingelés lehetséges oka?",
@@ -414,10 +414,10 @@
   "value": "255.255.255.192"
 }, {
   "image": "https://itexamanswers.net/wp-content/uploads/2020/01/i274590v1n1_274590.png",
-  "name": "133. Tanulmányozza az ábrát. Ha az A állomás egy IP-csomagot küld a B állomásnak, mi lesz a célcím a keretben, amikor az elhagyja az A állomást?",
+  "name": "133. Tanulmányozd az ábrát. Ha az A állomás egy IP-csomagot küld a B állomásnak, mi lesz a célcím a keretben, amikor az elhagyja az A állomást?",
   "value": "BB:BB:BB:BB:BB:BB"
 }, {
-  "name": "134. Mi az egyik előnye a felhőalapú számításnak a hálózatépítésben?",
+  "name": "134. Mi az egyik előnye a felhőalapú szolgáltatásnak a hálózatépítésben?",
   "value": "A hálózati képességek bővülnek anélkül, hogy új infrastruktúrába, személyzetbe vagy szoftverbe kellene beruházni."
 }, {
   "name": "135. Melyik két állítás helyes a MAC- és IP-címekkel kapcsolatban az adatátvitel során, ha nincs NAT? (Válassz ki kettőt.)",
@@ -427,24 +427,24 @@
   "value": "A felső réteg protokollja nem ismeri a kommunikáció során használt fizikai közeget."
 }, {
   "name": "137. Mi a CSMA/CD eljárás három jellemzője? (Válassz ki hármat.)\n",
-  "value": "Az eszköz figyel és vár, amíg a médium nem foglalt, mielőtt továbbítaná ◢◤ Az ütközés észlelése után a hosztok egy véletlenszerű késleltetés után megpróbálhatják folytatni az átvitelt ◢◤ A szegmensben lévő összes eszköz látja a hálózati médiumon áthaladó adatokat"
+  "value": "Az eszköz figyel és vár, amíg a közeg nem foglalt, mielőtt továbbítaná ◢◤ Az ütközés észlelése után a gépek egy véletlenszerű késleltetés után megpróbálhatják folytatni az átvitelt ◢◤ A szegmensben lévő összes eszköz látja a hálózati közegen áthaladó adatokat"
 }, {
   "name": "138. Milyen információkat jelenít meg a show startup-config parancs?",
-  "value": "a mentett konfigurációs fájl tartalma az NVRAM-ban"
+  "value": "a mentett konfigurációs fájl tartalmát az NVRAM-ban"
 }, {
-  "name": "139. Melyik két parancs használható egy Windows-állomáson az útválasztási táblázat megjelenítésére? (Válassz ki kettőt.)",
+  "name": "139. Melyik két parancs használható egy Windows-gépen az útválasztási táblázat megjelenítésére? (Válassz ki kettőt.)",
   "value": "route print ◢◤ netstat -r"
 }, {
   "name": "140. Mi az a két funkció, amelyet a hálózati réteg biztosít? (Válassz ki kettőt.)",
   "value": "adatcsomagok irányítása más hálózatokon lévő célállomáshoz ◢◤ a végberendezések egyedi hálózati azonosítóval való ellátása"
 }, {
-  "name": "141. Melyik két állítás írja le egy útválasztó IPv4 útválasztási táblázatának (routing table) jellemzőit? (Válassz ki kettőt.)",
+  "name": "141. Melyik két állítás írja le egy router IPv4 útválasztási táblázatának (routing table) jellemzőit? (Válassz ki kettőt.)",
   "value": "Az aktív útválasztóinterfészekből származó útvonalakra vonatkozó információkat tárolja ◢◤ Ha az útválasztóban alapértelmezett statikus útvonal van konfigurálva, az útválasztási táblázatban szerepel egy bejegyzés S forráskóddal ◢◤ Az útválasztási táblázat az aktív útválasztóinterfészekből származó útvonalakra vonatkozó információkat tárolja"
 }, {
   "name": "142. Milyen tulajdonság jellemzi a VPN-t?",
   "value": "egy alagútprotokoll, amely távoli felhasználók számára biztonságos hozzáférést biztosít egy szervezet hálózatához"
 }, {
-  "name": "143. Miért van szüksége egy Layer 2 switchnek IP-címre?",
+  "name": "143. Miért van szüksége egy 2. rétegbeli switchnek IP-címre?",
   "value": "a switch (kapcsoló) távoli kezelésének lehetővé tételéhez"
 }, {
   "name": "144. Párosítsd az egyes leírásokat a megfelelő kifejezéssel. (Nem minden lehetőséget kell használni.)",
@@ -488,8 +488,8 @@
   "value": "egy kísérleti cím: 240.2.6.255 ◢◤ egy helyi cím: 169.254.1.5 ◢◤ egy nyilvános cím: 198.133.219.2 ◢◤ egy hurok (loopback) cím: 127.0.0.1"
 }, {
   "name": "157. Egy felhasználó tracertet hajt végre egy távoli eszközre. Melyik ponton állítja le a csomag továbbítását egy router, amelyik a céleszközhöz vezető útvonalon van?",
-  "value": "amikor a TTL mező értéke eléri a nullát."
+  "value": "amikor a TTL mező értéke eléri a nullát"
 }, {
-  "name": "159. A felhasználók arról számolnak be, hogy a hálózati hozzáférés lassú. A hálózati rendszergazda az alkalmazottak megnevezése után megtudta, hogy az egyik alkalmazott egy harmadik féltől származó beolvasóprogramot töltött le a nyomtatóhoz. Milyen típusú rosszindulatú program kerülhetett be, amely a hálózat lassú teljesítményét okozza?",
+  "name": "158. A felhasználók arról számolnak be, hogy a hálózati hozzáférés lassú. A hálózati rendszergazda az alkalmazottak megnevezése után megtudta, hogy az egyik alkalmazott egy harmadik féltől származó beolvasóprogramot töltött le a nyomtatóhoz. Milyen típusú rosszindulatú program kerülhetett be, amely a hálózat lassú teljesítményét okozza?",
   "value": "féreg"
 } ]

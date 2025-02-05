@@ -161,7 +161,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .result-item:hover {
-  transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -175,6 +174,11 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10px;
   font-size: 14px;
   color: #fff;
+}
+
+.result-item .value ul {
+  list-style-position: inside;
+  padding: 0;
 }
 
 .result-image {

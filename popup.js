@@ -14,7 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
       searchInput.value = savedSearch; // Visszaállítja a keresési mező értékét
 
       function formatValue(value) {
-        return value.includes("◢◤") ? `<ul>${value.split("◢◤").map(item => `<li>${item.trim()}</li>`).join('')}</ul>` : value;
+        if (value.includes("◢◤")) {
+          return `<div class="listed"><ul>${value.split("◢◤").map(item => `<li>${item.trim()}</li>`).join('')}</ul></div>`;
+        } else {
+          return `<div class="notlist">${value}</div>`;
+        }
       }
 
       function renderResults(results) {

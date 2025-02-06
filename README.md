@@ -22,4 +22,4 @@
 - A keresés a kérdésekben és a válaszokban is keres.
 
 ## Képek
-<img src="https://github.com/user-attachments/assets/9efd7819-3970-460c-8bf0-a13e835a23c5">
+<img src="https://github.com/user-attachments/assets/aaf782fe-e87e-4538-9813-36d978afeebd">
